@@ -1,0 +1,45 @@
+<div class="posters">
+  @for (show of shows; track show.url) {
+    <div class="poster" (click)="openDialog(show)" [class.eye-cursor]="!show.rating">
+      <img [src]="show.url || 'https://placehold.co/400x600/EEE/31343C'" title="{{ show.id }}" alt="{{ show.id }}" class="poster__image" />
+      @if (show.rating) {
+        <div class="poster__rating">
+          <div class="text">{{ show.rating }}</div>
+        </div>
+      }
+    </div>
+  } 
+</div>
+
+<!-- 
+  modal: Defines if background should be blocked when dialog is displayed.
+-->
+<p-dialog
+  [header]="selectedShow?.id"
+  [modal]="true"
+  [(visible)]="visible"
+  [draggable]="false"
+  [resizable]="false"
+  [style]="{ maxWidth: '80%', width: '300px' }"
+>
+  @if (selectedShow) {
+    <!-- CAROUSEL -->
+    <p-carousel 
+      [value]="selectedShow.subItems!" 
+      [numVisible]="1"
+      [showIndicators]="false"
+      [circular]="true"
+    >
+      <ng-template let-show pTemplate="item">
+        <div class="poster">
+          <img [src]="show.url || 'https://placehold.co/400x600/EEE/31343C'" alt="{{ show.id }}" class="poster__image" />
+          @if (show.rating) {
+            <div class="poster__rating">
+              <div class="text">{{ show.rating }}</div>
+            </div>
+          }
+        </div>
+      </ng-template>
+    </p-carousel>
+  }
+</p-dialog>
