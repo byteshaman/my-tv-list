@@ -13,22 +13,29 @@
 
 <!-- 
   modal: Defines if background should be blocked when dialog is displayed.
+  dismissableMask: Specifies if clicking the modal background should hide the dialog.	
+  focusOnShow: Defihnes if the first element should automatically get focus on show.
 -->
 <p-dialog
-  [header]="selectedShow?.id"
   [modal]="true"
   [(visible)]="visible"
   [draggable]="false"
+  [dismissableMask]="true"
   [resizable]="false"
-  [style]="{ maxWidth: '80%', width: '300px' }"
+  [focusOnShow]="false"
+  [style]="{ maxWidth: '800px', width: '75vw' }"
+  (onHide)="resetCarousel()"
 >
   @if (selectedShow) {
     <!-- CAROUSEL -->
     <p-carousel 
+      #carousel
       [value]="selectedShow.subItems!" 
-      [numVisible]="1"
+      [numVisible]="3"
       [showIndicators]="false"
       [circular]="true"
+      (onPage)="onCarouselPageChange($event)"
+      [responsiveOptions]="responsiveOptions"
     >
       <ng-template let-show pTemplate="item">
         <div class="poster">
@@ -38,6 +45,7 @@
               <div class="text">{{ show.rating }}</div>
             </div>
           }
+          <div class="poster__prefix">{{ show.prefix || show.id }}</div>
         </div>
       </ng-template>
     </p-carousel>
