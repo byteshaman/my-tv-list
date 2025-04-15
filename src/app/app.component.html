@@ -1,7 +1,7 @@
 <div class="posters">
   @for (show of shows; track show.url) {
     <div class="poster" (click)="openDialog(show)" [class.eye-cursor]="!show.rating">
-      <img [src]="show.url || 'https://placehold.co/400x600/EEE/31343C'" title="{{ show.id }}" alt="{{ show.id }}" class="poster__image" />
+      <img [src]="show.url || 'https://placehold.co/400x600/EEE/31343C'" loading="lazy" title="{{ show.id }}" alt="{{ show.id }}" class="poster__image" />
       @if (show.rating) {
         <div class="poster__rating">
           <div class="text">{{ show.rating }}</div>
