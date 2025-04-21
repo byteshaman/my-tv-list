@@ -90,15 +90,15 @@ export const shows: Show[] = [
       // Season 6
       { id: 'Joan Is Awful', url: `${baseURL}/kb3GO7AJAukOIfjFCdSVcjUVWnK.jpg`, rating: 8 },
       { id: 'Loch Henry', url: `${baseURL}/h9275pcd2gvop2qCeANL9EyTHET.jpg`, rating: 9 },
-      { id: 'Beyond the Sea', url: `${baseURL}/m5ILo0BfwAnLGhFuzPxKlcUzoB0.jpg`, rating: 7 },
+      { id: 'Beyond The Sea', url: `${baseURL}/m5ILo0BfwAnLGhFuzPxKlcUzoB0.jpg`, rating: 7 },
       { id: 'Mazey Day', url: `${baseURL}/3fQcHtdmARBVnT8djV53jtGUIUU.jpg`, rating: 8 },
       { id: 'Demon 79', url: `${baseURL}/iPMcM7hvaN3mrbBYlU70h3mFG8q.jpg`, rating: 8 },
       // Season 7
-      {  id: 'Common People',  url: `${baseURL}/xM7gJYnfPNWbOa6BYyRcmAiYXSM.jpg`, rating: 9 },
+      { id: 'Common People',  url: `${baseURL}/xM7gJYnfPNWbOa6BYyRcmAiYXSM.jpg`, rating: 9 },
       { id: 'Bête Noire', url: `${baseURL}/5KeVSvfiLbs8dZMzZAUdjlWQf5t.jpg`, rating: 9 },
       { id: 'Hotel Reverie', url: `${baseURL}/gyLCvYSSNisHresFItp0aS4alFp.jpg`, rating: 8 },
       { id: 'Plaything', url: `${baseURL}/39TCU9SGvRlRKdQR2Mdm96PYdQZ.jpg`, rating: 9 },
-      { id: 'Eulogy', url: `https://image.tmdb.org/t/p/w454_and_h254_bestv2/j0FZRa4xHvvFS8YLekRdwgwlnOL.jpg`, rating: 10 },
+      { id: 'Eulogy', url: `${baseURL}/4ijNTDtkLIB6zdCezcbhqDGiHnP.jpg`, rating: 10 },
       { id: 'USS Callister: Into Infinity', url: `${baseURL}/dzc3DUC76Uw5tGtLCwN1u6ooObY.jpg`, rating: 8 },
       // Specials
       { id: 'Black Mirror: White Christmas', url: `${baseURL}/o17soyXVfLqikV6FTyqIuPHAr58.jpg`, rating: 10 },
@@ -155,7 +155,7 @@ export const shows: Show[] = [
     id: "Guillermo del Toro's Cabinet of Curiosities",
     url: `${baseURL}/3pl9u0ZeUUQdAqA7lfvusyfu1kh.jpg`,
     subItems: [
-      { id: 'Lot 36', url: `${baseURL}/tdigtD2JaWNltdWTANNbw5CjcNp.jpg`, rating: 9 },
+      { id: 'Lot 36', url: `${baseURL}/wKqiQumz8vRyJqy2IKA89yUqM6k.jpg`, rating: 9 },
       { id: 'Graveyard Rats', url: `${baseURL}/mAU2C7Sn6QOCSVnjeeoMGUKBJK6.jpg`, rating: 6 },
       { id: 'The Autopsy', url: `${baseURL}/w8YKY5xxrCUpiIZC0KHS9IvRxb5.jpg`, rating: 8 },
       { id: 'The Outside', url: `${baseURL}/9cxMWF0RRUVUEYEq6SnszSkIlJO.jpg`, rating: 7 },
