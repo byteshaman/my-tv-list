@@ -14,6 +14,8 @@ body {
 .poster {
   position: relative;
   overflow: hidden;
+  aspect-ratio: 2/3;
+  background-color: #2a2d2e; // during loading
 }
 
 .poster__image {
@@ -26,7 +28,7 @@ body {
   height: 0;
   border-style: solid;
   border-width: 0 30px 30px 0;
-  border-color: transparent #b70a0a transparent transparent;
+  border-color: transparent #FF8303 transparent transparent;
   position: absolute;
   top: 0;
   right: 0;
@@ -51,7 +53,7 @@ body {
 
 .poster__prefix {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: .9rem;
   color: #fff;
   text-align: center;
 }
