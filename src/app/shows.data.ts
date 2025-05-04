@@ -17,14 +17,15 @@ const baseURL = `https://image.tmdb.org/t/p/w${w}`;
 const tumblrURL  = `https://image.tmdb.org/t/p/w${w}`;
 
 export const shows: Show[] = [
-  { id: '13 Reasons Why Season 1', url: `${baseURL}/kTzJ5PrPTZVjLoKeiiShl5Z8Owf.jpg`, rating: 9, }, 
-  { id: 'Adolescence', url: `${baseURL}/tDHWWReefmOOjBCJZUck8cNwssk.jpg`, rating: 9, }, 
-  { id: 'Arcane', url: `${baseURL}/b2PlJsBGAU4NvqyBfFDdK3HXnL7.jpg`, rating: 9, }, 
-  { id: 'Avatar: The Last Airbender', url: `${baseURL}/v2vn1coUMPKw0GI1KGC5J4IXtqp.jpg`, rating: 7, }, 
-  { id: 'Baby Reindeer', url: `${baseURL}/tN9OcbkAOPwHSr1sgMornZtQZBx.jpg`, rating: 8, }, 
-  { id: 'Band of Brothers', url: `${baseURL}/8JMXquNmdMUy2n2RgW8gfOM0O3l.jpg`, rating: 8, }, 
-  { id: 'BEEF', url: `${baseURL}/4b4v7RnPhNyPEaVGFarEuo74r8W.jpg`, rating: 7, }, 
-  { id: 'Black Bird', url: `${baseURL}/79M2yNSmkh4CCMrWNV6b2xvIeNn.jpg`, rating: 8, },
+  { id: '13 Reasons Why Season 1', url: `${baseURL}/kTzJ5PrPTZVjLoKeiiShl5Z8Owf.jpg`, rating: 9 }, 
+  { id: 'Adolescence', url: `${baseURL}/tDHWWReefmOOjBCJZUck8cNwssk.jpg`, rating: 9 }, 
+  { id: 'Alice In Borderland', url: `${baseURL}/2iUyLK0QyTI6VlXOp3SZbBeR7UW.jpg`, rating: 0 }, 
+  { id: 'Arcane', url: `${baseURL}/b2PlJsBGAU4NvqyBfFDdK3HXnL7.jpg`, rating: 9 }, 
+  { id: 'Avatar: The Last Airbender', url: `${baseURL}/v2vn1coUMPKw0GI1KGC5J4IXtqp.jpg`, rating: 7 }, 
+  { id: 'Baby Reindeer', url: `${baseURL}/tN9OcbkAOPwHSr1sgMornZtQZBx.jpg`, rating: 8 }, 
+  { id: 'Band of Brothers', url: `${baseURL}/8JMXquNmdMUy2n2RgW8gfOM0O3l.jpg`, rating: 8 }, 
+  { id: 'BEEF', url: `${baseURL}/4b4v7RnPhNyPEaVGFarEuo74r8W.jpg`, rating: 7 }, 
+  { id: 'Black Bird', url: `${baseURL}/79M2yNSmkh4CCMrWNV6b2xvIeNn.jpg`, rating: 8 },
   //# MARK: BM
   {
     id: 'Black Mirror',
@@ -74,12 +75,12 @@ export const shows: Show[] = [
       { id: 'Black Mirror: Bandersnatch', url: `${baseURL}/fR0VZ0VE598zl1lrYf7IfBqEwQ2.jpg`, rating: 7 },
     ],
   },
-  { id: 'Bodies', url: `${baseURL}/qWX71nLvoLsBNPEjddZMC75lq6I.jpg`, rating: 8, }, 
-  { id: 'Breaking Bad', url: `${baseURL}/3ZMOKFDA3fPLlIgFnrZLYLXGoiD.jpg`, rating: 6, }, 
-  { id: 'Camera Café', url: `${baseURL}/vmdCodGh2nUPRDBQbIVsxGaIMyK.jpg`, rating: 7, }, 
-  { id: 'Chernobyl', url: `${baseURL}/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg`, rating: 9, }, 
-  { id: 'Devs', url: `${baseURL}/f6Mfzu3RdCBaVQXME6tvlf7cZbv.jpg`, rating: 7, }, 
-  { id: 'Evil Genius', url: `${baseURL}/rXaq7vl7sXynXFBVLPrNzj6CGUp.jpg`, rating: 5, },
+  { id: 'Bodies', url: `${baseURL}/qWX71nLvoLsBNPEjddZMC75lq6I.jpg`, rating: 8 }, 
+  { id: 'Breaking Bad', url: `${baseURL}/3ZMOKFDA3fPLlIgFnrZLYLXGoiD.jpg`, rating: 6 }, 
+  { id: 'Camera Café', url: `${baseURL}/vmdCodGh2nUPRDBQbIVsxGaIMyK.jpg`, rating: 7 }, 
+  { id: 'Chernobyl', url: `${baseURL}/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg`, rating: 9 }, 
+  { id: 'Devs', url: `${baseURL}/f6Mfzu3RdCBaVQXME6tvlf7cZbv.jpg`, rating: 7 }, 
+  { id: 'Evil Genius', url: `${baseURL}/rXaq7vl7sXynXFBVLPrNzj6CGUp.jpg`, rating: 5 },
   // MARK: FARGO
   {
     id: 'Fargo',
@@ -88,17 +89,23 @@ export const shows: Show[] = [
       { id: 'Season 1', url: `${baseURL}/sYCaM1Aq7DR8GdJHMkcSWl0NHh9.jpg`, rating: 9 },
       { id: 'Season 2', url: `${baseURL}/ww5ec8tSMhhMDwRg2gWGIx4imrf.jpg`, rating: 10 },
       { id: 'Season 3', url: `${baseURL}/dYHoNzcpQXzU2qBMZYbyOnrcuvi.jpg`, rating: 6 },
+      { id: 'Season 4', url: `${baseURL}/zLhsNgyby6jqlrSOcrU2TWXm7yB.jpg`, rating: 0 },
+      { id: 'Season 5', url: `${baseURL}/7ADSODABMUGW181hhbwU5zn9S7F.jpg`, rating: 8 },
     ],
   },
   {
     id: 'Goosebumps',
-    url: `${baseURL}/l378JaD4xHnauo8q2TnClvfsIlj.jpg`,
-    rating: 9,
-  },
-  {
-    id: 'Goosebumps: The Vanishing',
-    url: `${baseURL}/ajghauMTZ4RKVeISDUzxcMWjXnI.jpg`,
-    rating: 8,
+    url: `${baseURL}/7lWdcYcoVigsbmFt8XTSg99fl9T.jpg`,
+    subItems: [
+      {
+        id: 'Goosebumps',
+        url: `${baseURL}/l378JaD4xHnauo8q2TnClvfsIlj.jpg`,
+        rating: 9 },
+      {
+        id: 'Goosebumps: The Vanishing',
+        url: `${baseURL}/ajghauMTZ4RKVeISDUzxcMWjXnI.jpg`,
+        rating: 8 },
+    ],
   },
   // MARK: CABINET
   {
@@ -124,12 +131,12 @@ export const shows: Show[] = [
       { id: 'Heroes Reborn: Dark Matters', url: `${baseURL}/fixaFo6VbICZEqdHfXsJdLOBqBi.jpg`, rating: 7 },
     ],
   },
-  { id: 'Into the Badlands', url: `${baseURL}/kwZZWOm5mpKvt5Yt9fMbsl0taOf.jpg`, rating: 8, }, 
-  { id: 'Kaleidoscope', url: `${baseURL}/9rmE7IEUwdNBRy8XHBu1j82BqnU.jpg`, rating: 7, }, 
-  { id: 'La Palma', url: `${baseURL}/2zehV5eBl6QTPFss6wuDK4lzR4i.jpg`, rating: 9, }, 
-  { id: 'Legion', url: `${baseURL}/d6T86JYMW4sSLRmNfdtFilvugOv.jpg`, rating: 7, }, 
-  { id: 'Locke & Key', url: `${baseURL}/zuxGfRKziGHPogipnEXXykdDmyT.jpg`, rating: 8, }, 
-  { id: 'Lost', url: `${baseURL}/rSPXRV2TD2LlU26QyDSS9uYCnGb.jpg`, rating: 8, },
+  { id: 'Into the Badlands', url: `${baseURL}/kwZZWOm5mpKvt5Yt9fMbsl0taOf.jpg`, rating: 8 }, 
+  { id: 'Kaleidoscope', url: `${baseURL}/9rmE7IEUwdNBRy8XHBu1j82BqnU.jpg`, rating: 7 }, 
+  { id: 'La Palma', url: `${baseURL}/2zehV5eBl6QTPFss6wuDK4lzR4i.jpg`, rating: 9 }, 
+  { id: 'Legion', url: `${baseURL}/d6T86JYMW4sSLRmNfdtFilvugOv.jpg`, rating: 7 }, 
+  { id: 'Locke & Key', url: `${baseURL}/zuxGfRKziGHPogipnEXXykdDmyT.jpg`, rating: 8 }, 
+  { id: 'Lost', url: `${baseURL}/rSPXRV2TD2LlU26QyDSS9uYCnGb.jpg`, rating: 8 },
   // MARK: LD&R
   {
     id: 'Love, Death & Robots',
@@ -187,14 +194,16 @@ export const shows: Show[] = [
     ],
 
   },
-  { id: 'Maniac', url: `${baseURL}/kCNl4QPstAqChFD0NnLpbDFG8ul.jpg`, rating: 5, }, 
-  { id: 'Mare Of Easttown', url: `${baseURL}/78aK4Msbr22A5PGa6PZV0pAvdwf.jpg`, rating: 8, }, 
-  { id: 'Misfits', url: `${baseURL}/1yjmRIp8A92FlAw5JpouQ50ATUA.jpg`, rating: 8, }, 
-  { id: 'Moon Knight', url: `${baseURL}/9T4e6kA8tVtIK9GZ1Cy1QMvK9js.jpg`, rating: 8, }, 
-  { id: 'Mr. Robot', url: `${baseURL}/5yaTYdq9xZdZnYWSbdz2yhkMNdA.jpg`, rating: 7, }, 
-  { id: 'Ms. Marvel', url: `${baseURL}/3HWWh92kZbD7odwJX7nKmXNZsYo.jpg`, rating: 6, }, 
-  { id: 'Neverwhere', url: `${baseURL}/vrVbb6DanOxuhlIH8TQ1s67dQ6P.jpg`, rating: 5, }, 
-  { id: 'Oz', url: `${baseURL}/tS6P1LtTThVGhnncYttQ1TSLupd.jpg`, rating: 9, }, 
+  { id: 'Maniac', url: `${baseURL}/kCNl4QPstAqChFD0NnLpbDFG8ul.jpg`, rating: 5 }, 
+  { id: 'Mare Of Easttown', url: `${baseURL}/78aK4Msbr22A5PGa6PZV0pAvdwf.jpg`, rating: 8 }, 
+  { id: 'Masters Of The Air', url: `${baseURL}/rSAmgcoA74371rplbqM27yVsd3y.jpg`, rating: 0 }, 
+  { id: 'Misfits', url: `${baseURL}/1yjmRIp8A92FlAw5JpouQ50ATUA.jpg`, rating: 8 }, 
+  { id: 'Moon Knight', url: `${baseURL}/9T4e6kA8tVtIK9GZ1Cy1QMvK9js.jpg`, rating: 8 }, 
+  { id: 'Mr. Robot', url: `${baseURL}/5yaTYdq9xZdZnYWSbdz2yhkMNdA.jpg`, rating: 7 }, 
+  { id: 'Ms. Marvel', url: `${baseURL}/3HWWh92kZbD7odwJX7nKmXNZsYo.jpg`, rating: 6 }, 
+  { id: 'Neverwhere', url: `${baseURL}/vrVbb6DanOxuhlIH8TQ1s67dQ6P.jpg`, rating: 5 }, 
+  { id: 'Oz', url: `${baseURL}/tS6P1LtTThVGhnncYttQ1TSLupd.jpg`, rating: 9 }, 
+  { id: 'Parallels', url: `${baseURL}/o259EJfN0tQl7smNXs7Rpz4t8H0.jpg`, rating: 0 }, 
   // MARK: PKD
   {
     id: 'Philip K. Dick\'s Electric Dreams',
@@ -235,17 +244,25 @@ export const shows: Show[] = [
       { id: 'Playtime: Fulfillment', url: `${baseURL}/j5dnkwFjRR6VHYpeEK2dgkIvqEm.jpg`, rating: 8 },
     ],
   },
-  { id: 'Sense8',url: `${baseURL}/re2aPwo7XRUTLa7XwOyExsaWL3R.jpg`,rating: 10 },
-  { id: 'Sherlock',url: `${baseURL}/czzJiwfOJVDQKddRidHkQ2lw4as.jpg`,rating: 9 },
-  { id: 'Stranger Things',url: `${baseURL}/uKYUR8GPkKRCksczYDJb3pwZauo.jpg`,rating: 8 },
-  { id: 'The 100',url: `${baseURL}/wcaDIAG1QdXQLRaj4vC1EFdBT2.jpg`,rating: 8 },
-  { id: 'The End Of The F***ing World',url: `${baseURL}/fMnNMaWa6yQJAEGtlN4uADmVsX.jpg`,rating: 7 },
-  { id: 'The Fall Of The House of Usher',url: `${baseURL}/aFX5bdLKVCxFEKTwB1yLh6MCpsX.jpg`,rating: 7 },
-  { id: 'The Magicians',url: `${baseURL}/d3Q4yFK3D3NOWzYRgJdsxYpZdH0.jpg`,rating: 8 },
-  { id: 'The Mentalist',url: `${baseURL}/wHBpu72EW1oUYwDSaJMD46sC4nG.jpg`,rating: 8 },
-  { id: 'The Pacific',url: `${baseURL}/1SsuFZalrkfbBBWmMRjVNhbWpO3.jpg`,rating: 6 },
-  { id: 'The Queen\'s Gambit',url: `${baseURL}/zU0htwkhNvBQdVSIKB9s6hgVeFK.jpg`,rating: 10 },
-  { id: 'The Silent Sea',url: `${baseURL}/fFT0IgqtCOks4munDTxQwkvNJkd.jpg`,rating: 7 },// MARK: THE TWILIGHT ZONE
+  { id: 'Sense8',url: `${baseURL}/re2aPwo7XRUTLa7XwOyExsaWL3R.jpg`, rating: 10 },
+  { id: 'Sharp Objects', url: `${baseURL}/1SGovj2qDdkJexvhFiXllj9EYfu.jpg`, rating: 0 },
+  { id: 'Sherlock',url: `${baseURL}/czzJiwfOJVDQKddRidHkQ2lw4as.jpg`, rating: 9 },
+  { id: 'Squid Game', url: `${baseURL}/fRKEvCCELSZwPN5jw3VqvRDnLDZ.jpg`, rating: 0 },
+  { id: 'Stranger Things',url: `${baseURL}/uKYUR8GPkKRCksczYDJb3pwZauo.jpg`, rating: 0 },
+  { id: 'The 100',url: `${baseURL}/wcaDIAG1QdXQLRaj4vC1EFdBT2.jpg`, rating: 8 },
+  { id: 'The Breakthrough', url: `${baseURL}/ZOr8cJQiwqgO1GTdGPQJxZ6O1D.jpg`, rating: 0 },
+  { id: 'The End Of The F***ing World',url: `${baseURL}/fMnNMaWa6yQJAEGtlN4uADmVsX.jpg`, rating: 7 },
+  { id: 'The Fall Of The House of Usher',url: `${baseURL}/aFX5bdLKVCxFEKTwB1yLh6MCpsX.jpg`, rating: 7 },
+  { id: 'The Haunting Of Hill House', url: `${baseURL}/7Q2yog7gESEX8FFzFh4pcxRwM1S.jpg`, rating: 0 },
+  { id: 'The Haunting Of Bly Manor', url: `${baseURL}/vIXQ8UymmQ7zJEPrKJP3s3fSbhR.jpg`, rating: 0 },
+  { id: 'The Magicians',url: `${baseURL}/d3Q4yFK3D3NOWzYRgJdsxYpZdH0.jpg`, rating: 8 },
+  { id: 'The Mentalist',url: `${baseURL}/wHBpu72EW1oUYwDSaJMD46sC4nG.jpg`, rating: 8 },
+  { id: 'The Night Of', url: `${baseURL}/q13XJHdnsmxQL9rXRcnNDrZGHjO.jpg`, rating: 0 },
+  { id: 'The Pacific',url: `${baseURL}/1SsuFZalrkfbBBWmMRjVNhbWpO3.jpg`, rating: 6 },
+  { id: 'The Queen\'s Gambit',url: `${baseURL}/zU0htwkhNvBQdVSIKB9s6hgVeFK.jpg`, rating: 10 },
+  { id: 'The Silent Sea',url: `${baseURL}/fFT0IgqtCOks4munDTxQwkvNJkd.jpg`, rating: 7 },
+  { id: 'The Twelve', url: `${baseURL}/qn4hUvR6aYm9A52vO87q3Q7u1pU.jpg`, rating: 0 },
+  // MARK: THE TWILIGHT ZONE
   {
     id: 'The Twilight Zone',
     url: `${baseURL}/4gzrxZZkgrmUNOJSWXqLUEgPUeF.jpg`,
@@ -274,11 +291,7 @@ export const shows: Show[] = [
       { id: 'You Might Also Like', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 0 }
     ],
   },
-  {
-    id: 'The Umbrella Academy',
-    url: `${baseURL}/qhcwrnnCnN8NE1N6XXKHFmveJR9.jpg`,
-    rating: 8,
-  },
+  { id: 'The Umbrella Academy', url: `${baseURL}/qhcwrnnCnN8NE1N6XXKHFmveJR9.jpg`, rating: 8 },
   // MARK: TWD
   {
     id: 'The Walking Dead',
@@ -288,6 +301,7 @@ export const shows: Show[] = [
       { id: 'The Walking Dead: The Ones Who Live', url: `${baseURL}/glsSEchiMDbaNAhzDYhRsQj3DON.jpg`, rating: 9 },
     ],
   },
+  { id: 'Time', url: `${baseURL}/vRHPBJ86EwRfSRf4zgEIs7M5gbt.jpg`, rating: 0 },
   // MARK: TRUE DETECTIVE
   {
     id: 'True Detective',
@@ -300,5 +314,8 @@ export const shows: Show[] = [
     ],
   },
   { id: 'Twin Peaks', url: `${baseURL}/kfGlKqHRukOib8PnNUlam8r5aLi.jpg`, rating: 8 },
+  { id: 'Undone', url: `${baseURL}/ucUhydbM7DEHDhFPV3KhKRxJ51l.jpg`, rating: 0 },
+  { id: 'Veleno', url: `${baseURL}/gcZmxFyeSYLFj3kotQetw66Tp0m.jpg`, rating: 0 },
   { id: 'Video Game High School', url: `${baseURL}/bTmfH8JF8GISz4XrZvrwt5aXrF0.jpg`, rating: 9 },
+  { id: 'When They See Us', url: `${baseURL}/oPv3nNtkuc6EPEql5lgdOuQNHuG.jpg`, rating: 0 },
 ];

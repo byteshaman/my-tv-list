@@ -1,6 +1,6 @@
 <div class="posters">
   @for (show of shows; track show.url) {
-    <div class="poster" (click)="openDialog(show)" [class.pointer]="!show.rating">
+    <div class="poster" (click)="openDialog(show)" [class.pointer]="show.subItems">
       <img [src]="show.url || 'https://placehold.co/400x600/EEE/31343C'" loading="lazy" title="{{ show.id }}" alt="{{ show.id }}" class="poster__image" />
       
       @if (show.rating === 0) {
@@ -51,9 +51,9 @@
         <div class="poster">
           <img [src]="show.url || 'https://placehold.co/400x600/EEE/31343C'" alt="{{ show.id }}" class="poster__image" />
             @if (show.rating === 0) {
-            <div class="overlay">
-              <img src="assets/notseen.svg" alt="notseen" class="overlay__icon">
-            </div>
+              <div class="overlay">
+                <img src="assets/notseen.svg" alt="notseen" class="overlay__icon">
+              </div>
             } @else {
               <div class="poster__rating">
                 @if (show.rating) {
