@@ -203,7 +203,7 @@ export const shows: Show[] = [
   { id: 'Ms. Marvel', url: `${baseURL}/3HWWh92kZbD7odwJX7nKmXNZsYo.jpg`, rating: 6 }, 
   { id: 'Neverwhere', url: `${baseURL}/vrVbb6DanOxuhlIH8TQ1s67dQ6P.jpg`, rating: 5 }, 
   { id: 'Oz', url: `${baseURL}/tS6P1LtTThVGhnncYttQ1TSLupd.jpg`, rating: 9 }, 
-  { id: 'Parallels', url: `${baseURL}/o259EJfN0tQl7smNXs7Rpz4t8H0.jpg`, rating: 0 }, 
+  { id: 'Parallèles', url: `${baseURL}/o259EJfN0tQl7smNXs7Rpz4t8H0.jpg`, rating: 8 }, 
   // MARK: PKD
   {
     id: 'Philip K. Dick\'s Electric Dreams',
@@ -317,5 +317,5 @@ export const shows: Show[] = [
   { id: 'Undone', url: `${baseURL}/ucUhydbM7DEHDhFPV3KhKRxJ51l.jpg`, rating: 0 },
   { id: 'Veleno', url: `${baseURL}/gcZmxFyeSYLFj3kotQetw66Tp0m.jpg`, rating: 0 },
   { id: 'Video Game High School', url: `${baseURL}/bTmfH8JF8GISz4XrZvrwt5aXrF0.jpg`, rating: 9 },
-  { id: 'When They See Us', url: `${baseURL}/oPv3nNtkuc6EPEql5lgdOuQNHuG.jpg`, rating: 0 },
+  { id: 'When They See Us', url: `${baseURL}/oPv3nNtkuc6EPEql5lgdOuQNHuG.jpg`, rating: 9 },
 ];
