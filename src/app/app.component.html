@@ -48,7 +48,7 @@
           <img [src]="show.url || 'https://placehold.co/400x600/EEE/31343C'" alt="{{ show.id }}" class="poster__image" />
             @if (show.rating === 0) {
               @let imgname = show.subItems?.length ? 'details' : 'notseen';
-              <div class="overlay">
+              <div class="overlay" [class.notseen]="imgname === 'notseen'">
                 <img [src]="'assets/'+imgname+'.svg'" [alt]="imgname" class="overlay__icon" [class.notseen]="imgname === 'notseen'">
               </div>
             } @else {
