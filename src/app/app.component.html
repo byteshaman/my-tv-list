@@ -3,18 +3,14 @@
     <div class="poster" (click)="openDialog(show)" [class.pointer]="show.subItems">
       <img [src]="show.url || 'https://placehold.co/400x600/EEE/31343C'" loading="lazy" title="{{ show.id }}" alt="{{ show.id }}" class="poster__image" />
       
-      @if (show.rating === 0) {
-        <div class="overlay">
-          <img src="assets/notseen.svg" alt="notseen" class="overlay__icon">
+      @if (show.rating === 0) { // Overlay
+        @let imgname = show.subItems?.length ? 'mouse' : 'notseen';
+        <div class="overlay" [class.notseen]="imgname === 'notseen'">
+          <img [src]="'assets/'+imgname+'.svg'" [alt]="imgname" class="overlay__icon">
         </div>
-      } @else {
-        <!-- top-right corner -->
+      } @else { // Rating corner
         <div class="poster__rating">
-          @if (show.rating) {
           <div class="text">{{ show.rating }}</div>
-          } @else {
-            <img src="assets/mouse.svg" alt="clic" class="icon">
-          }
         </div>
       }
     </div>
@@ -51,16 +47,13 @@
         <div class="poster">
           <img [src]="show.url || 'https://placehold.co/400x600/EEE/31343C'" alt="{{ show.id }}" class="poster__image" />
             @if (show.rating === 0) {
+              @let imgname = show.subItems?.length ? 'details' : 'notseen';
               <div class="overlay">
-                <img src="assets/notseen.svg" alt="notseen" class="overlay__icon">
+                <img [src]="'assets/'+imgname+'.svg'" [alt]="imgname" class="overlay__icon" [class.notseen]="imgname === 'notseen'">
               </div>
             } @else {
               <div class="poster__rating">
-                @if (show.rating) {
-                  <div class="text">{{ show.rating }}</div>
-                } @else {
-                  <img src="assets/mouse.svg" alt="clic" class="icon">
-                }
+                <div class="text">{{ show.rating }}</div>
               </div>
             }
         </div>

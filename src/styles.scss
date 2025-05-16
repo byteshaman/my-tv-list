@@ -81,8 +81,7 @@ body {
   inset: 0;
   height: 100%;
   width: 100%;
-  opacity: .69;
-  background-color: #000;
+  opacity: .77;
 
   &__icon {
     width: 35%;
@@ -92,4 +91,10 @@ body {
     transform: translate(-50%, -50%);
     z-index: 11;
   }
+
+  &.notseen {
+    opacity: .69;
+    background-color: #000;
+  }
 }
+
