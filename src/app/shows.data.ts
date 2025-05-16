@@ -30,7 +30,6 @@ export const shows: Show[] = [
   {
     id: 'Black Mirror',
     url: `${baseURL}/5UaYsGZOFhjFDwQh6GuLjjA1WlF.jpg`,
-    rating: 0,
     subItems: [
       // Season 1
       { id: 'The National Anthem', url: `${baseURL}/6YuxcgdeAsSU6IUaZQ3VBsdtgg6.jpg`, rating: 6 },
@@ -86,7 +85,6 @@ export const shows: Show[] = [
   {
     id: 'Fargo',
     url: `${baseURL}/hFkdib1m2sfrTRYzcSqAc215kRz.jpg`,
-    rating: 0,
     subItems: [
       { id: 'Season 1', url: `${baseURL}/sYCaM1Aq7DR8GdJHMkcSWl0NHh9.jpg`, rating: 9 },
       { id: 'Season 2', url: `${baseURL}/ww5ec8tSMhhMDwRg2gWGIx4imrf.jpg`, rating: 10 },
@@ -98,7 +96,6 @@ export const shows: Show[] = [
   {
     id: 'Goosebumps',
     url: `${baseURL}/7lWdcYcoVigsbmFt8XTSg99fl9T.jpg`,
-    rating: 0,
     subItems: [
       {
         id: 'Goosebumps',
@@ -114,7 +111,6 @@ export const shows: Show[] = [
   {
     id: 'Guillermo del Toro\'s Cabinet of Curiosities',
     url: `${baseURL}/3pl9u0ZeUUQdAqA7lfvusyfu1kh.jpg`,
-    rating: 0,
     subItems: [
       { id: 'Lot 36', url: `${baseURL}/wKqiQumz8vRyJqy2IKA89yUqM6k.jpg`, rating: 9 },
       { id: 'Graveyard Rats', url: `${baseURL}/mAU2C7Sn6QOCSVnjeeoMGUKBJK6.jpg`, rating: 6 },
@@ -129,7 +125,6 @@ export const shows: Show[] = [
   {
     id: 'Heroes',
     url: `${baseURL}/dvCPxEZmy8kjedNZXTw7x4jLYvI.jpg`,
-    rating: 0,
     subItems: [
       { id: 'Heroes', url: `${baseURL}/7Cn1Sj5yipu7tBX14BbaXuBHbL1.jpg`, rating: 8 },
       { id: 'Heroes Reborn', url: `${baseURL}/bHSkrlwjJgHq8Aa6AdDJvWuSI2X.jpg`, rating: 6 },
@@ -147,7 +142,6 @@ export const shows: Show[] = [
   {
     id: 'Love, Death & Robots',
     url: `${baseURL}/cG6lqN82R9HeiM2w4Yy63aJ83qc.jpg`,
-    rating: 0,
     subItems: [
       // Season 1
       { id: 'Sonnie\'s Edge', url: `${baseURL}/qgqj0lNZ8mighfj8bCyx44ulJsI.jpg`, rating: 9 },
@@ -216,7 +210,6 @@ export const shows: Show[] = [
   {
     id: 'Philip K. Dick\'s Electric Dreams',
     url: `${baseURL}/tyaNrGepu4HbkjLFkK6vgua1vgn.jpg`,
-    rating: 0,
     subItems: [
       { id: 'Real Life', url: `${baseURL}/xyxNdRjpm1IcEFjmWdzU0Y2x9fC.jpg`, rating: 9 },
       { id: 'Autofac', url: `${baseURL}/xyxNdRjpm1IcEFjmWdzU0Y2x9fC.jpg`, rating: 8 },
@@ -235,7 +228,6 @@ export const shows: Show[] = [
   {
     id: 'Secret Level',
     url: `${baseURL}/uRNVZNfDeQmbjdM8UHf0mmEzsgl.jpg`,
-    rating: 0,
     subItems: [
       { id: 'Dungeons & Dragons: The Queen\'s Cradle', url: `${baseURL}/pJBOXZ5lrh5l64RzRVXi6wqDYVx.jpg`, rating: 8 },
       { id: 'Sifu: It Takes a Life', url: `${baseURL}/2GQq3AVe9IiRUbvJ0CRArM5YEYS.jpg`, rating: 8 },
@@ -279,7 +271,6 @@ export const shows: Show[] = [
   {
     id: 'The Twilight Zone',
     url: `${baseURL}/4gzrxZZkgrmUNOJSWXqLUEgPUeF.jpg`,
-    rating: 0,
     subItems: [
       // Season 1
       { id: 'The Comedian', url: `${baseURL}/7Vh2DdqwN5fYQLQrPszFofwoJjs.jpg`, rating: 8 },
@@ -310,7 +301,6 @@ export const shows: Show[] = [
   {
     id: 'The Walking Dead',
     url: `${baseURL}/4Rq7INXiCXGXrZl6zfsnpuRjWko.jpg`,
-    rating: 0,
     subItems: [
       { id: 'The Walking Dead', url: `${baseURL}/yff28MtQ52vrngK5aM3DtnArwCr.jpg`, rating: 8 },
       { id: 'The Walking Dead: The Ones Who Live', url: `${baseURL}/glsSEchiMDbaNAhzDYhRsQj3DON.jpg`, rating: 9 },
@@ -319,7 +309,6 @@ export const shows: Show[] = [
   { 
     id: 'Time', 
     url: `${baseURL}/vRHPBJ86EwRfSRf4zgEIs7M5gbt.jpg`,
-    rating: 0,
     subItems: [
       { id: 'Season 1', url: `${baseURL}/nSxE6STKTRWb5XLNJgH6q2AKGas.jpg`, rating: 9 },
       { id: 'Season 2', url: `${baseURL}/lj2vzzPIcuN9Hil40vBwxOsjWuz.jpg`, rating: 8 },
@@ -329,7 +318,6 @@ export const shows: Show[] = [
   {
     id: 'True Detective',
     url: `${baseURL}/4t69U5WlWYlLippHH6RMWCLxqfV.jpg`,
-    rating: 0,
     subItems: [
       { id: 'Season 1', url: `${baseURL}/u9gL6EP9aTL439a2xrPu1guRD7c.jpg`, rating: 10 },
       { id: 'Season 2', url: `${baseURL}/1LkvGRXP9onB1sRMIWVZy9cDXme.jpg`, rating: 4 },
