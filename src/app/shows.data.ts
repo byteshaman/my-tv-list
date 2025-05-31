@@ -93,6 +93,7 @@ export const shows: Show[] = [
       { id: 'Season 5', url: `${baseURL}/7ADSODABMUGW181hhbwU5zn9S7F.jpg`, rating: 8 },
     ],
   },
+  // MARK: GOOSEBUMPS
   {
     id: 'Goosebumps',
     url: `${baseURL}/7lWdcYcoVigsbmFt8XTSg99fl9T.jpg`,
@@ -135,7 +136,7 @@ export const shows: Show[] = [
   { id: 'Kaleidoscope', url: `${baseURL}/9rmE7IEUwdNBRy8XHBu1j82BqnU.jpg`, rating: 7 }, 
   { id: 'La Palma', url: `${baseURL}/2zehV5eBl6QTPFss6wuDK4lzR4i.jpg`, rating: 9 }, 
   { id: 'Legion', url: `${baseURL}/d6T86JYMW4sSLRmNfdtFilvugOv.jpg`, rating: 7 }, 
-  { id: 'Lesson In Chemestry', url: `${baseURL}/tCPIf5f6jUIr8KDMWsfaXwXW0kl.jpg`, rating: 0 }, 
+  { id: 'Lesson In Chemestry', url: `${baseURL}/tCPIf5f6jUIr8KDMWsfaXwXW0kl.jpg`, rating: 9 }, 
   { id: 'Locke & Key', url: `${baseURL}/zuxGfRKziGHPogipnEXXykdDmyT.jpg`, rating: 8 }, 
   { id: 'Lost', url: `${baseURL}/rSPXRV2TD2LlU26QyDSS9uYCnGb.jpg`, rating: 8 },
   // MARK: LD&R
