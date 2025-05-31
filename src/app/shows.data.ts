@@ -26,7 +26,7 @@ export const shows: Show[] = [
   { id: 'Band of Brothers', url: `${baseURL}/8JMXquNmdMUy2n2RgW8gfOM0O3l.jpg`, rating: 8 }, 
   { id: 'BEEF', url: `${baseURL}/4b4v7RnPhNyPEaVGFarEuo74r8W.jpg`, rating: 7 }, 
   { id: 'Black Bird', url: `${baseURL}/79M2yNSmkh4CCMrWNV6b2xvIeNn.jpg`, rating: 8 },
-  //# MARK: BM
+  // MARK: BM
   {
     id: 'Black Mirror',
     url: `${baseURL}/5UaYsGZOFhjFDwQh6GuLjjA1WlF.jpg`,
@@ -183,16 +183,17 @@ export const shows: Show[] = [
       { id: 'In Vaulted Halls Entombed', url: `${baseURL}/cRiDlzzZC5lL7fvImuSjs04SUIJ.jpg`, rating: 9 },
       { id: 'Jibaro', url: `${baseURL}/nWMXMNvVy5DEgFpbUCvcuNK35oV.jpg`, rating: 9 },
       // Season 4
-      { id: 'Can\'t Stop', url: `${baseURL}/ldyN0McqaRlcbdDZN8HWGEFEiWF.jpg`, rating: 0 },
-      { id: '400 Boys', url: `${baseURL}/ldyN0McqaRlcbdDZN8HWGEFEiWF.jpg`, rating: 0 },
-      { id: 'The Other Large Thing', url: `${baseURL}/ldyN0McqaRlcbdDZN8HWGEFEiWF.jpg`, rating: 0 },
-      { id: 'Golgotha', url: `${baseURL}/ldyN0McqaRlcbdDZN8HWGEFEiWF.jpg`, rating: 0 },
-      { id: 'The Screaming of the Tyrannosaur', url: `${baseURL}/ldyN0McqaRlcbdDZN8HWGEFEiWF.jpg`, rating: 0 },
-      { id: 'Night of the Mini Dead', url: `${baseURL}/ldyN0McqaRlcbdDZN8HWGEFEiWF.jpg`, rating: 0 },
-      { id: 'Kill Team Kill', url: `${baseURL}/ldyN0McqaRlcbdDZN8HWGEFEiWF.jpg`, rating: 0 },
-      { id: 'Swarm', url: `${baseURL}/ldyN0McqaRlcbdDZN8HWGEFEiWF.jpg`, rating: 0 },
-      { id: 'For He Can Creep', url: `${baseURL}/ldyN0McqaRlcbdDZN8HWGEFEiWF.jpg`, rating: 0 },
-      { id: 'Automated Customer Service', url: `${baseURL}/ldyN0McqaRlcbdDZN8HWGEFEiWF.jpg`, rating: 0 }
+      { id: 'Can\'t Stop', url: `${baseURL}/ldyN0McqaRlcbdDZN8HWGEFEiWF.jpg`, rating: 7 },
+      { id: 'Close Encounters of the Mini Kind', url: `${baseURL}/ldyN0McqaRlcbdDZN8HWGEFEiWF.jpg`, rating: 8 },
+      { id: 'Spider Rose', url: `${baseURL}/ldyN0McqaRlcbdDZN8HWGEFEiWF.jpg`, rating: 8 },
+      { id: '400 Boys', url: `${baseURL}/ldyN0McqaRlcbdDZN8HWGEFEiWF.jpg`, rating: 7 },
+      { id: 'The Other Large Thing', url: `${baseURL}/ldyN0McqaRlcbdDZN8HWGEFEiWF.jpg`, rating: 8 },
+      { id: 'Golgotha', url: `${baseURL}/ldyN0McqaRlcbdDZN8HWGEFEiWF.jpg`, rating: 7 },
+      { id: 'The Screaming of the Tyrannosaur', url: `${baseURL}/ldyN0McqaRlcbdDZN8HWGEFEiWF.jpg`, rating: 10 },
+      { id: 'How Zeke Got Religion', url: `${baseURL}/ldyN0McqaRlcbdDZN8HWGEFEiWF.jpg`, rating: 9 },
+      { id: 'Smart Appliances, Stupid Owners', url: `${baseURL}/ldyN0McqaRlcbdDZN8HWGEFEiWF.jpg`, rating: 9 },
+      { id: 'For He Can Creep', url: `${baseURL}/ldyN0McqaRlcbdDZN8HWGEFEiWF.jpg`, rating: 10 }
+
     ],
 
   },
