@@ -28,9 +28,9 @@ export const shows: Show[] = [
     id: 'WW2 Trilogy', 
     url: '',
     subItems: [
-      { id: 'Band of Brothers', url: `${baseURL}/8JMXquNmdMUy2n2RgW8gfOM0O3l.jpg`, rating: 8 }, 
+      { id: 'Band Of Brothers', url: `${baseURL}/8JMXquNmdMUy2n2RgW8gfOM0O3l.jpg`, rating: 8 }, 
+      { id: 'The Pacific', url: `${baseURL}/1SsuFZalrkfbBBWmMRjVNhbWpO3.jpg`, rating: 6 },
       { id: 'Masters Of The Air', url: `${baseURL}/rSAmgcoA74371rplbqM27yVsd3y.jpg`, rating: 0 }, 
-      { id: 'The Pacific', url: `${baseURL}/1SsuFZalrkfbBBWmMRjVNhbWpO3.jpg`, rating: 6 }
     ]
   },
   { id: 'BEEF', url: `${baseURL}/4b4v7RnPhNyPEaVGFarEuo74r8W.jpg`, rating: 7 }, 
@@ -211,13 +211,14 @@ export const shows: Show[] = [
   { id: 'Mare Of Easttown', url: `${baseURL}/78aK4Msbr22A5PGa6PZV0pAvdwf.jpg`, rating: 9 }, 
   { id: 'Misfits', url: `${baseURL}/1yjmRIp8A92FlAw5JpouQ50ATUA.jpg`, rating: 8 }, 
   { id: 'Moon Knight', url: `${baseURL}/9T4e6kA8tVtIK9GZ1Cy1QMvK9js.jpg`, rating: 8 },
-  // MARK: Monster
+  // MARK: MONSTER
   {
     id: 'Monster',
     url: '',
     subItems: [
-      { id: 'The Jeffrey Dahmer Story', url: `${baseURL}/x9YC2rpXHUFMqI1hCekKDm9UE4w.jpg`, rating: 8 },
-      { id: 'The Lyle and Erik Menendez Story', url: `${baseURL}/x9YC2rpXHUFMqI1hCekKDm9UE4w.jpg`, rating: 7 }
+      { id: 'The Jeffrey Dahmer Story', url: `${baseURL}/f2PVrphK0u81ES256lw3oAZuF3x.jpg`, rating: 8 },
+      { id: 'The Lyle & Erik Menendez Story', url: `${baseURL}/x9YC2rpXHUFMqI1hCekKDm9UE4w.jpg`, rating: 8 }
+      // { id: 'The Original Monster', url: `${baseURL}/x9YC2rpXHUFMqI1hCekKDm9UE4w.jpg`, rating: 8 }
     ]
   }, 
   { id: 'Mr. Robot', url: `${baseURL}/5yaTYdq9xZdZnYWSbdz2yhkMNdA.jpg`, rating: 7 }, 
@@ -277,7 +278,7 @@ export const shows: Show[] = [
   { id: 'The Breakthrough', url: `${baseURL}/ZOr8cJQiwqgO1GTdGPQJxZ6O1D.jpg`, rating: 9 },
   { id: 'The End Of The F***ing World',url: `${baseURL}/fMnNMaWa6yQJAEGtlN4uADmVsX.jpg`, rating: 7 },
   { id: 'The Fall Of The House of Usher', url: `${baseURL}/aFX5bdLKVCxFEKTwB1yLh6MCpsX.jpg`, rating: 7 },
-  // MARK: The Haunting
+  // MARK: THE HAUNTING
   {
     id: 'The Haunting',
     url: '',
@@ -286,6 +287,7 @@ export const shows: Show[] = [
       { id: 'The Haunting Of Bly Manor', url: `${baseURL}/vIXQ8UymmQ7zJEPrKJP3s3fSbhR.jpg`, rating: 0 },
     ]
   }, 
+  { id: 'The Fall Of The House of Usher', url: `${baseURL}/aFX5bdLKVCxFEKTwB1yLh6MCpsX.jpg`, rating: 7 },
   { id: 'The Magicians',url: `${baseURL}/d3Q4yFK3D3NOWzYRgJdsxYpZdH0.jpg`, rating: 8 },
   { id: 'The Mentalist',url: `${baseURL}/wHBpu72EW1oUYwDSaJMD46sC4nG.jpg`, rating: 8 },
   { id: 'The Night Of', url: `${baseURL}/q13XJHdnsmxQL9rXRcnNDrZGHjO.jpg`, rating: 9 },
@@ -325,19 +327,21 @@ export const shows: Show[] = [
   // MARK: TWD
   {
     id: 'The Walking Dead',
-    url: `${baseURL}/4Rq7INXiCXGXrZl6zfsnpuRjWko.jpg`,
+    url: `${baseURL}/a093PCUdiTHXL6UH6X1kEPMZqon.jpg`,
     subItems: [
       { id: 'The Walking Dead', url: `${baseURL}/yff28MtQ52vrngK5aM3DtnArwCr.jpg`, rating: 8 },
       { id: 'The Walking Dead: The Ones Who Live', url: `${baseURL}/glsSEchiMDbaNAhzDYhRsQj3DON.jpg`, rating: 9 },
       { id: 'Tales Of The Walking Dead', url: `${baseURL}/zRMUHvTgQ79zteQafNI46Nd9XFm.jpg`, rating: 0 },
     ],
   },
-  { 
-    id: 'Time', 
-    url: `${baseURL}/vRHPBJ86EwRfSRf4zgEIs7M5gbt.jpg`,
+
+  // MARK: TIME
+  {
+    id: 'Time',
+    url: '',
     subItems: [
-      { id: 'Season 1', url: `${baseURL}/nSxE6STKTRWb5XLNJgH6q2AKGas.jpg`, rating: 9 },
-      { id: 'Season 2', url: `${baseURL}/lj2vzzPIcuN9Hil40vBwxOsjWuz.jpg`, rating: 8 },
+      { id: 'Time S01', url: `${baseURL}/nSxE6STKTRWb5XLNJgH6q2AKGas.jpg`, rating: 9 },
+      { id: 'Time S02', url: `${baseURL}/lj2vzzPIcuN9Hil40vBwxOsjWuz.jpg`, rating: 8 },
     ],
  },
   // MARK: TRUE DETECTIVE
