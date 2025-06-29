@@ -93,3 +93,25 @@ body {
     z-index: 11;
   }
 }
+
+.posters--stacked {
+  position: relative;
+  display: inline-block;
+}
+
+.posters--stacked .poster {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.posters--stacked .poster:nth-child(1) { transform: translate(0px, 0px); z-index: 3; }
+.posters--stacked .poster:nth-child(2) { transform: translate(3px, 3px); z-index: 2; }
+.posters--stacked .poster:nth-child(3) { transform: translate(6px, 6px); z-index: 1; }
+.posters--stacked .poster:nth-child(n+4) { 
+  transform: translate(9px, 9px); 
+  z-index: 0; 
+  opacity: 0.7;
+}

@@ -1,23 +1,21 @@
 <div class="posters">
   @for (show of shows; track show.url) {
-    <div class="poster" (click)="openDialog(show)" [class.pointer]="show.subItems">
-      <img [src]="show.url || 'https://placehold.co/400x600/EEE/31343C'" loading="lazy" title="{{ show.id }}" alt="{{ show.id }}" class="poster__image" />
-      
-      @if (show.rating === 0) {
-        <div class="overlay">
-          <img src="assets/notseen.svg" alt="notseen" class="overlay__icon">
-        </div>
-      } @else {
-        <!-- top-right corner -->
-        <div class="poster__rating">
-          @if (show.rating) {
-          <div class="text">{{ show.rating }}</div>
-          } @else {
-            <img src="assets/mouse.svg" alt="clic" class="icon">
-          }
-        </div>
-      }
-    </div>
+    @let subItems = show.subItems!;
+    @let stacked = show.url === '' && subItems.length > 0;
+    @if (stacked) {
+      <div class="posters--stacked" (click)="getNextPoster(subItems)">
+        @for (show of subItems; track show.url; let i = $index) {
+          <div class="poster">
+            <ng-template *ngTemplateOutlet="poster; context: {show}"></ng-template>
+          </div>
+        }
+      </div>
+      <!-- TODO -->
+    } @else {
+      <div class="poster" (click)="openDialog(show)" [class.pointer]="show.subItems">
+        <ng-template *ngTemplateOutlet="poster; context: {show}"></ng-template>
+      </div>
+    }
   } 
 </div>
 
@@ -26,46 +24,40 @@
   dismissableMask: Specifies if clicking the modal background should hide the dialog.	
   focusOnShow: Defihnes if the first element should automatically get focus on show.
 -->
-<p-dialog
-  [modal]="true"
-  [(visible)]="visible"
-  [draggable]="false"
-  [dismissableMask]="true"
-  [resizable]="false"
-  [focusOnShow]="false"
-  [style]="{ maxWidth: '800px', width: '75vw' }"
-  (onHide)="resetCarousel()"
->
+<p-dialog [modal]="true" [(visible)]="visible" [draggable]="false" [dismissableMask]="true" [resizable]="false"
+  [focusOnShow]="false" [style]="{ maxWidth: '800px', width: '75vw' }" (onHide)="resetCarousel()">
   @if (selectedShow) {
-    <!-- CAROUSEL -->
-    <p-carousel 
-      #carousel
-      [value]="selectedShow.subItems!" 
-      [numVisible]="3"
-      [showIndicators]="false"
-      [circular]="true"
-      (onPage)="onCarouselPageChange($event)"
-      [responsiveOptions]="responsiveOptions"
-    >
+  <!-- CAROUSEL -->
+  <p-carousel #carousel [value]="selectedShow.subItems!" [numVisible]="3" [showIndicators]="false" [circular]="true"
+    (onPage)="onCarouselPageChange($event)" [responsiveOptions]="responsiveOptions">
       <ng-template let-show pTemplate="item">
         <div class="poster">
-          <img [src]="show.url || 'https://placehold.co/400x600/EEE/31343C'" alt="{{ show.id }}" class="poster__image" />
-            @if (show.rating === 0) {
-              <div class="overlay">
-                <img src="assets/notseen.svg" alt="notseen" class="overlay__icon">
-              </div>
-            } @else {
-              <div class="poster__rating">
-                @if (show.rating) {
-                  <div class="text">{{ show.rating }}</div>
-                } @else {
-                  <img src="assets/mouse.svg" alt="clic" class="icon">
-                }
-              </div>
-            }
+          <ng-template *ngTemplateOutlet="poster; context: {show}"></ng-template>
         </div>
         <div class="poster__prefix">{{ show.prefix || show.id }}</div>
       </ng-template>
     </p-carousel>
   }
 </p-dialog>
+
+
+<!-- Show template -->
+<ng-template let-show="show" #poster>
+  <img [src]="show.url || 'https://placehold.co/400x600/EEE/31343C'" loading="lazy" title="{{ show.id }}"
+    alt="{{ show.id }}" class="poster__image" />
+  
+  @if (show.rating === 0) {
+  <div class="overlay">
+    <img src="assets/notseen.svg" alt="notseen" class="overlay__icon">
+  </div>
+  } @else {
+  <!-- top-right corner -->
+  <div class="poster__rating">
+    @if (show.rating) {
+    <div class="text">{{ show.rating }}</div>
+    } @else {
+    <img src="assets/mouse.svg" alt="clic" class="icon">
+    }
+  </div>
+  }
+</ng-template>

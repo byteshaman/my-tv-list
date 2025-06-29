@@ -1,13 +1,14 @@
 import { Component, ViewChild } from '@angular/core';
 import { Carousel, CarouselModule, CarouselPageEvent, CarouselResponsiveOptions } from 'primeng/carousel';
 import { DialogModule } from 'primeng/dialog';
-import { Show, shows } from './shows.data';
+import { Show, shows, SubItem } from './shows.data';
+import { NgTemplateOutlet } from '@angular/common';
 
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  imports: [CarouselModule, DialogModule]
+  imports: [CarouselModule, DialogModule, NgTemplateOutlet]
 })
 export class AppComponent {
   visible = false;
@@ -21,6 +22,11 @@ export class AppComponent {
     { breakpoint: '600px', numVisible: 1, numScroll: 1 } ,
     { breakpoint: '900px', numVisible: 2, numScroll: 2 }
   ];
+
+  getNextPoster(subItems: SubItem[]) {
+    const first = subItems.shift();
+    subItems.push(first!);
+  }
 
   openDialog(show: Show) {
     if (!show.subItems) return;// Avoid error on elements without subItems that don't need to open a dialog
@@ -41,3 +47,4 @@ export class AppComponent {
   }
 
 }
+
