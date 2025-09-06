@@ -24,24 +24,6 @@ export class AppComponent {
   ];
 
 
-  /**
-   * Only display one poster under the focused one if there are more than 2 subItems
-   * @param {SubItem[]} subItems 
-   * @returns {SubItem[]}
-   */
-  getVisiblePosters(subItems: SubItem[]) {
-    return subItems.slice(0, 2);
-  }
-
-  /**
-   * Move the first poster to the end of the array
-   * @param {SubItem[]} subItems 
-   */
-  getNextPoster(subItems: SubItem[]) {
-    const first = subItems.shift();
-    subItems.push(first!);
-  }
-
   openDialog(show: Show) {
     if (!show.subItems) return;// Avoid error on elements without subItems that don't need to open a dialog
 

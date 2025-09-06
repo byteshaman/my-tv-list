@@ -270,7 +270,7 @@ export const shows: Show[] = [
   { id: 'Sharp Objects', url: `${baseURL}/1SGovj2qDdkJexvhFiXllj9EYfu.jpg`, rating: 7 },
   { id: 'Sherlock',url: `${baseURL}/czzJiwfOJVDQKddRidHkQ2lw4as.jpg`, rating: 9 },
   { id: 'Sound Of Creation', url: `${baseURL}/gBLL87ZMeaanqtrB7Eca7cVxtUA.jpg`, rating: 0 },
-  { id: 'Squid Game', url: `${baseURL}/fRKEvCCELSZwPN5jw3VqvRDnLDZ.jpg`, rating: 0 },
+  { id: 'Squid Game', url: `${baseURL}/fRKEvCCELSZwPN5jw3VqvRDnLDZ.jpg`, rating: 8 },
   { id: 'Stranger Things',url: `${baseURL}/uKYUR8GPkKRCksczYDJb3pwZauo.jpg`, rating: 0 },
   { id: 'Tales From The Loop', url: `${baseURL}/no7WuiGWQdmaHlW7PWDsJ5W9B9e.jpg`, rating: 0 },
   { id: 'The 100',url: `${baseURL}/wcaDIAG1QdXQLRaj4vC1EFdBT2.jpg`, rating: 8 },
@@ -360,5 +360,6 @@ export const shows: Show[] = [
   { id: 'Undone', url: `${baseURL}/ucUhydbM7DEHDhFPV3KhKRxJ51l.jpg`, rating: 0 },
   { id: 'Veleno', url: `${baseURL}/gcZmxFyeSYLFj3kotQetw66Tp0m.jpg`, rating: 0 },
   { id: 'Video Game High School', url: `${baseURL}/bTmfH8JF8GISz4XrZvrwt5aXrF0.jpg`, rating: 9 },
+  { id: 'Watchmen', url: `${baseURL}/noStVK6Nw4k5X5F6IF8Ud72BA6L.jpg`, rating: 0 },
   { id: 'When They See Us', url: `${baseURL}/oPv3nNtkuc6EPEql5lgdOuQNHuG.jpg`, rating: 9 },
 ];

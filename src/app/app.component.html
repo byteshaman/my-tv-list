@@ -1,18 +1,18 @@
 <div class="posters">
   @for (show of shows; track show.url) {
     @let subItems = show.subItems!;
-    @let stacked = show.url === '' && subItems.length > 0;
-    @if (stacked) {
-      <div class="posters--stacked" (click)="getNextPoster(subItems)">
-        @for (show of getVisiblePosters(subItems); track show.url; let i = $index) {
-          <div class="poster" [style.--stack-index]="i">
-            <ng-template *ngTemplateOutlet="poster; context: {show}"></ng-template>
+    @let multi = show.url === '' && subItems.length > 0;
+    @if (multi) {
+      <div class="poster poster--multi pointer">
+        @for (subItem of subItems; track subItem.id; let i = $index) {
+          <div class="poster__segment" [style.--segment-width.%]="100 / subItems.length">
+            <ng-template *ngTemplateOutlet="poster; context: {show: subItem}"></ng-template>
           </div>
         }
       </div>
     } @else {
       <div class="poster" (click)="openDialog(show)" [class.pointer]="show.subItems">
-        <ng-template *ngTemplateOutlet="poster; context: {show}"></ng-template>
+        <ng-template *ngTemplateOutlet="poster; context: {show}"></ng-template> <!-- shorthand for {show: show} -->
       </div>
     }
   } 
@@ -50,7 +50,6 @@
       <img src="assets/notseen.svg" alt="notseen" class="overlay__icon">
     </div>
   } @else {
-    <!-- top-right corner -->
     <div class="poster__rating">
       @if (show.rating) {
         <div class="text">{{ show.rating }}</div>

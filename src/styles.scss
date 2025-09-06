@@ -9,6 +9,11 @@ body {
   gap: 3px;
   max-width: 1300px;
   margin: 0 auto;
+
+  &--stacked {
+    position: relative;
+    display: inline-block;
+  }
 }
 
 .poster {
@@ -16,6 +21,29 @@ body {
   overflow: hidden;
   aspect-ratio: 2/3;
   background-color: #2a2d2e; // during loading
+
+  &--multi {
+    display: flex; // display segments as flex
+
+    &:hover {
+      .poster__segment:not(:hover) {
+        width: 0%;
+        
+        .poster__rating,
+        .overlay {
+          opacity: 0;
+        }
+      }
+
+      .poster__segment:hover {
+        width: 100%;
+        
+        .poster__image {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
 }
 
 .poster__image {
@@ -67,6 +95,29 @@ body {
   text-align: center;
 }
 
+.poster__segment {
+  height: 100%;
+  position: relative;
+  transition: all 0.4s ease;
+  width: var(--segment-width);
+
+  // Image of each segment
+  .poster__image {
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+
+  // Effetto hover
+  &:hover::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(255,255,255,0.1);
+    pointer-events: none;
+    z-index: 5;
+  }
+}
+
 .pointer {
   cursor: pointer;
 }
@@ -92,26 +143,4 @@ body {
     transform: translate(-50%, -50%);
     z-index: 11;
   }
-}
-
-.posters--stacked {
-  position: relative;
-  display: inline-block;
-}
-
-.posters--stacked .poster {
-  position: absolute;
-  top: 0;
-  left: 0;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.posters--stacked .poster:nth-child(1) { transform: translate(0px, 0px); z-index: 3; }
-.posters--stacked .poster:nth-child(2) { transform: translate(3px, 3px); z-index: 2; }
-.posters--stacked .poster:nth-child(3) { transform: translate(6px, 6px); z-index: 1; }
-.posters--stacked .poster:nth-child(n+4) { 
-  transform: translate(9px, 9px); 
-  z-index: 0; 
-  opacity: 0.7;
 }
