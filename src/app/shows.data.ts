@@ -45,27 +45,27 @@ export const shows: Show[] = [
       { id: 'Fifteen Million Merits', url: `${baseURL}/pknSc3JOH4tHXWiesHL3XSWEwmm.jpg`, rating: 8 },
       { id: 'The Entire History of You', url: `${baseURL}/yBaN8IBS0YFTeHG3O26ClJHShgH.jpg`, rating: 8 },
       // Season 2
-      { id: 'Be Right Back', url: `${baseURL}/todooooooooooooooooooooooo.jpg`, rating: 5 },
-      { id: 'White Bear', url: `${baseURL}/todooooooooooooooooooooooo.jpg`, rating: 9 },
-      { id: 'The Waldo Moment', url: `${baseURL}/todooooooooooooooooooooooo.jpg`, rating: 7 },
+      { id: 'Be Right Back', url: `${baseURL}/ssGyFkTGaj5LDYrFlfnnv9hUmhe.jpg`, rating: 5 },
+      { id: 'White Bear', url: `${baseURL}/97XqLjCKwRh0vHVjmn6rlotYJnE.jpg`, rating: 9 },
+      { id: 'The Waldo Moment', url: `${baseURL}/ssGyFkTGaj5LDYrFlfnnv9hUmhe.jpg`, rating: 7 },
       // Season 3
       { id: 'Nosedive', url: `${baseURL}/1sh0AysG4yXrdc1djvAQpjHjCoC.jpg`, rating: 8 },
       { id: 'Playtest', url: `${baseURL}/64PMbfan4ijg7hcDxPM51BV2B0A.jpg`, rating: 9 },
       { id: 'Shut Up and Dance', url: `${baseURL}/oTESNF5psI4ZCDspSXDVepHj7K8.jpg`, rating: 9 },
-      { id: 'San Junipero', url: `${baseURL}/todooooooooooooooooooooooo.jpg`, rating: 10 },
+      { id: 'San Junipero', url: `${baseURL}/ssGyFkTGaj5LDYrFlfnnv9hUmhe.jpg`, rating: 10 },
       { id: 'Men Against Fire', url: `${baseURL}/9l3C6NAZXhgOT4OYRLZl95PfZMZ.jpg`, rating: 7 },
-      { id: 'Hated in the Nation', url: `${baseURL}/todooooooooooooooooooooooo.jpg`, rating: 10 },
+      { id: 'Hated in the Nation', url: `${baseURL}/ssGyFkTGaj5LDYrFlfnnv9hUmhe.jpg`, rating: 10 },
       // Season 4
-      { id: 'USS Callister', url: `${baseURL}/tHq9uHXjVmi14gxh3RKCbuGAy0H.jpg`, rating: 10 },
-      { id: 'Arkangel', url: `${baseURL}/4QDwNVeWqavrP82SLRP73jzrxtP.jpg`, rating: 8 },
+      { id: 'USS Callister', url: `${baseURL}/1a0L2uglsOovQmhTQtu2VHvb98Z.jpg`, rating: 10 },
+      { id: 'Arkangel', url: `${baseURL}/7VSDhqNXaK55xEGRvJDs0iTOD6L.jpg`, rating: 8 },
       { id: 'Crocodile', url: `${baseURL}/zlxFLlwcA0x0GFI9doXEHvc0ZvF.jpg`, rating: 8 },
       { id: 'Hang the DJ', url: `${baseURL}/nHiylk2WJTl4wsf8ovsDtsGWxoV.jpg`, rating: 8 },
       { id: 'Metalhead', url: `${baseURL}/ymjCnzTuu83kyAvXMe5DBSRjRr0.jpg`, rating: 5 },
-      { id: 'Black Museum', url: `${baseURL}/todooooooooooooooooooooooo.jpg`, rating: 9 },
+      { id: 'Black Museum', url: `${baseURL}/hMEGFxOM1G9A0Y4f18tFR8KBJBG.jpg`, rating: 9 },
       // Season 5
-      { id: 'Striking Vipers', url: `${baseURL}/phNZotfQsSKXJwnwdChgqATNtn7.jpg`, rating: 6 },
+      { id: 'Striking Vipers', url: `${baseURL}/tm0kBhbsQiww8VnJnRGe7pavkt3.jpg`, rating: 6 },
       { id: 'Smithereens', url: `${baseURL}/8i7xDwwDyyKXyIryKZPXqjHovBs.jpg`, rating: 7 },
-      { id: 'Rachel, Jack and Ashley Too', url: `${baseURL}/bEQeQgPSRjHXhymVZKx9nWParTp.jpg`, rating: 5 },
+      { id: 'Rachel, Jack and Ashley Too', url: `${baseURL}/fAEUG5spzCwPU0JaqESknp2A8mU.jpg`, rating: 5 },
       // Season 6
       { id: 'Joan Is Awful', url: `${baseURL}/kb3GO7AJAukOIfjFCdSVcjUVWnK.jpg`, rating: 8 },
       { id: 'Loch Henry', url: `${baseURL}/h9275pcd2gvop2qCeANL9EyTHET.jpg`, rating: 9 },
@@ -217,8 +217,8 @@ export const shows: Show[] = [
     url: '',
     subItems: [
       { id: 'The Jeffrey Dahmer Story', url: `${baseURL}/f2PVrphK0u81ES256lw3oAZuF3x.jpg`, rating: 8 },
-      { id: 'The Lyle & Erik Menendez Story', url: `${baseURL}/x9YC2rpXHUFMqI1hCekKDm9UE4w.jpg`, rating: 8 }
-      // { id: 'The Original Monster', url: `${baseURL}/x9YC2rpXHUFMqI1hCekKDm9UE4w.jpg`, rating: 8 }
+      { id: 'The Lyle & Erik Menendez Story', url: `${baseURL}/x9YC2rpXHUFMqI1hCekKDm9UE4w.jpg`, rating: 8 },
+      { id: 'The Ed Gein Story', url: `${baseURL}/iDHzRALtZCzHVmx7uyjTTKvMAPB.jpg`, rating: 9 }
     ]
   }, 
   { id: 'Mr. Robot', url: `${baseURL}/5yaTYdq9xZdZnYWSbdz2yhkMNdA.jpg`, rating: 7 }, 
@@ -314,9 +314,9 @@ export const shows: Show[] = [
       { id: 'Meet In The Middle', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 8 },
       { id: 'Downtime', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 9 },
       { id: 'The Who Of You', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 10 },
-      { id: 'Ovation', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 0 },
-      { id: 'Among the Untrodden', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 0 },
-      { id: '8', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 0 },
+      { id: 'Ovation', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 8 },
+      { id: 'Among the Untrodden', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 8 },
+      { id: '8', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 7 },
       { id: 'A Human Face', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 0 },
       { id: 'A Small Town', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 0 },
       { id: 'Try, Try', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 0 },
