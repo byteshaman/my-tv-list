@@ -1,1 +1,1 @@
-# FavoriteTvShows
+Personal TV shows tracker
