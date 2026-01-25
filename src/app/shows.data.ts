@@ -271,7 +271,7 @@ export const shows: Show[] = [
   { id: 'Sherlock',url: `${baseURL}/czzJiwfOJVDQKddRidHkQ2lw4as.jpg`, rating: 9 },
   { id: 'Sound Of Creation', url: `${baseURL}/gBLL87ZMeaanqtrB7Eca7cVxtUA.jpg`, rating: 0 },
   { id: 'Squid Game', url: `${baseURL}/fRKEvCCELSZwPN5jw3VqvRDnLDZ.jpg`, rating: 8 },
-  { id: 'Stranger Things',url: `${baseURL}/uKYUR8GPkKRCksczYDJb3pwZauo.jpg`, rating: 9 },
+  { id: 'Stranger Things', url: `${baseURL}/8GEpV2uY13c77TG2yaz1zSVnOO2.jpg`, rating: 9 },
   { id: 'Tales From The Loop', url: `${baseURL}/no7WuiGWQdmaHlW7PWDsJ5W9B9e.jpg`, rating: 0 },
   { id: 'The 100',url: `${baseURL}/wcaDIAG1QdXQLRaj4vC1EFdBT2.jpg`, rating: 8 },
   { id: 'The Act', url: `${baseURL}/uegpHsJP6AMQOvcGSTu7ytj2xCT.jpg`, rating: 0 },
@@ -293,7 +293,7 @@ export const shows: Show[] = [
   { id: 'The Night Of', url: `${baseURL}/q13XJHdnsmxQL9rXRcnNDrZGHjO.jpg`, rating: 9 },
   { id: 'The Queen\'s Gambit',url: `${baseURL}/zU0htwkhNvBQdVSIKB9s6hgVeFK.jpg`, rating: 10 },
   { id: 'The Silent Sea',url: `${baseURL}/fFT0IgqtCOks4munDTxQwkvNJkd.jpg`, rating: 7 },
-  { id: 'The Twelve', url: `${baseURL}/qn4hUvR6aYm9A52vO87q3Q7u1pU.jpg`, rating: 0 },
+  { id: 'The Twelve', url: `${baseURL}/qn4hUvR6aYm9A52vO87q3Q7u1pU.jpg`, rating: 9 },
   // MARK: THE TWILIGHT ZONE
   {
     id: 'The Twilight Zone',
