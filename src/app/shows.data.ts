@@ -271,6 +271,7 @@ export const shows: Show[] = [
   { id: 'Sherlock',url: `${baseURL}/czzJiwfOJVDQKddRidHkQ2lw4as.jpg`, rating: 9 },
   { id: 'Sound Of Creation', url: `${baseURL}/gBLL87ZMeaanqtrB7Eca7cVxtUA.jpg`, rating: 0 },
   { id: 'Squid Game', url: `${baseURL}/fRKEvCCELSZwPN5jw3VqvRDnLDZ.jpg`, rating: 8 },
+  { id: 'Steal', url: `${baseURL}/efF9g5dYoOZtlwn7cGGPCzxripH.jpg`, rating: 8 },
   { id: 'Stranger Things', url: `${baseURL}/8GEpV2uY13c77TG2yaz1zSVnOO2.jpg`, rating: 9 },
   { id: 'Tales From The Loop', url: `${baseURL}/no7WuiGWQdmaHlW7PWDsJ5W9B9e.jpg`, rating: 0 },
   { id: 'The 100',url: `${baseURL}/wcaDIAG1QdXQLRaj4vC1EFdBT2.jpg`, rating: 8 },
