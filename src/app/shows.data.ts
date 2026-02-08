@@ -318,10 +318,10 @@ export const shows: Show[] = [
       { id: 'Ovation', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 8 },
       { id: 'Among the Untrodden', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 8 },
       { id: '8', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 7 },
-      { id: 'A Human Face', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 0 },
-      { id: 'A Small Town', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 0 },
-      { id: 'Try, Try', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 0 },
-      { id: 'You Might Also Like', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 0 }
+      { id: 'A Human Face', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 7 },
+      { id: 'A Small Town', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 8 },
+      { id: 'Try, Try', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 9 },
+      { id: 'You Might Also Like', url: `${baseURL}/twpirU8fnVfMcPwfP6Xb4Djrwet.jpg`, rating: 6 }
     ],
   },
   { id: 'The Umbrella Academy', url: `${baseURL}/qhcwrnnCnN8NE1N6XXKHFmveJR9.jpg`, rating: 8 },
