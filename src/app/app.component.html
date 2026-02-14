@@ -45,7 +45,7 @@
   <img [src]="show.url || 'https://placehold.co/400x600/EEE/31343C'" loading="lazy" title="{{ show.id }}"
     alt="{{ show.id }}" class="poster__image" />
   
-  @if (show.rating === 0) {
+  @if (show.rating === null) {
     <div class="overlay">
       <img src="assets/notseen.svg" alt="notseen" class="overlay__icon">
     </div>
