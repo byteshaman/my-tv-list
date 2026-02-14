@@ -1,9 +1,8 @@
+import { NgTemplateOutlet } from '@angular/common';
 import { Component, ViewChild } from '@angular/core';
 import { Carousel, CarouselModule, CarouselPageEvent, CarouselResponsiveOptions } from 'primeng/carousel';
 import { DialogModule } from 'primeng/dialog';
-import { Show, shows, SubItem } from './shows.data';
-import { NgTemplateOutlet } from '@angular/common';
-
+import { Show, shows } from './shows.data';
 
 @Component({
   selector: 'app-root',
@@ -23,6 +22,7 @@ export class AppComponent {
     { breakpoint: '900px', numVisible: 2, numScroll: 2 }
   ];
 
+  onCarouselPageChange(event: CarouselPageEvent) { this.selectedSubItem = this.selectedShow.subItems![event.page!]; }
 
   openDialog(show: Show) {
     if (!show.subItems) return;// Avoid error on elements without subItems that don't need to open a dialog
@@ -32,15 +32,5 @@ export class AppComponent {
     this.selectedSubItem = this.selectedShow.subItems![0];
   }
 
-  onCarouselPageChange(event: CarouselPageEvent) {
-    this.selectedSubItem = this.selectedShow.subItems![event.page!];
-  }
-
-  resetCarousel() {
-    if (this.carousel) {
-      this.carousel.page = 0; // Reset the carousel to the first page
-    }
-  }
-
+  resetCarousel() { if (this.carousel) this.carousel.page = 0; } // Reset the carousel to the first page
 }
-
