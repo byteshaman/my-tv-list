@@ -15,7 +15,7 @@ const baseURL = `https://image.tmdb.org/t/p/w${w}`;
 export const shows: Show[] = [
   { id: '13 Reasons Why Season 1', url: `${baseURL}/kTzJ5PrPTZVjLoKeiiShl5Z8Owf.jpg`, rating: 9 }, 
   { id: 'Adolescence', url: `${baseURL}/tDHWWReefmOOjBCJZUck8cNwssk.jpg`, rating: 9 }, 
-  { id: 'Alice In Borderland', url: `${baseURL}/2iUyLK0QyTI6VlXOp3SZbBeR7UW.jpg`, rating: null }, 
+  { id: 'Alice In Borderland (S1+S2)', url: `${baseURL}/2iUyLK0QyTI6VlXOp3SZbBeR7UW.jpg`, rating: 8 }, 
   { id: 'All Of Us Are Dead', url: `${baseURL}/z4IP8ZiKctB5U9brfKHYujYBUTD.jpg`, rating: null }, 
   { id: 'Arcane', url: `${baseURL}/b2PlJsBGAU4NvqyBfFDdK3HXnL7.jpg`, rating: 9 }, 
   { id: 'Avatar: The Last Airbender', url: `${baseURL}/v2vn1coUMPKw0GI1KGC5J4IXtqp.jpg`, rating: 7 }, 
@@ -360,6 +360,6 @@ export const shows: Show[] = [
   { id: 'Undone', url: `${baseURL}/ucUhydbM7DEHDhFPV3KhKRxJ51l.jpg`, rating: null },
   { id: 'Veleno', url: `${baseURL}/gcZmxFyeSYLFj3kotQetw66Tp0m.jpg`, rating: null },
   { id: 'Video Game High School', url: `${baseURL}/bTmfH8JF8GISz4XrZvrwt5aXrF0.jpg`, rating: 9 },
-  { id: 'Watchmen', url: `${baseURL}/noStVK6Nw4k5X5F6IF8Ud72BA6L.jpg`, rating: null },
+  { id: 'Watchmen', url: `${baseURL}/noStVK6Nw4k5X5F6IF8Ud72BA6L.jpg`, rating: 8 },
   { id: 'When They See Us', url: `${baseURL}/oPv3nNtkuc6EPEql5lgdOuQNHuG.jpg`, rating: 9 },
 ];
