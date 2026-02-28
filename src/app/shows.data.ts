@@ -277,7 +277,6 @@ export const shows: Show[] = [
   { id: 'The Boys', url: `${baseURL}/zBi4Otjddaa92ecwcNDEIhQFxcl.jpg`, rating: null },
   { id: 'The Breakthrough', url: `${baseURL}/ZOr8cJQiwqgO1GTdGPQJxZ6O1D.jpg`, rating: 9 },
   { id: 'The End Of The F***ing World',url: `${baseURL}/fMnNMaWa6yQJAEGtlN4uADmVsX.jpg`, rating: 7 },
-  { id: 'The Fall Of The House of Usher', url: `${baseURL}/aFX5bdLKVCxFEKTwB1yLh6MCpsX.jpg`, rating: 7 },
   // MARK: THE HAUNTING
   {
     id: 'The Haunting',
