@@ -84,7 +84,8 @@ export const shows: Show[] = [
   { id: 'Bodies', url: `${baseURL}/qWX71nLvoLsBNPEjddZMC75lq6I.jpg`, rating: 8 }, 
   { id: 'Breaking Bad', url: `${baseURL}/3ZMOKFDA3fPLlIgFnrZLYLXGoiD.jpg`, rating: 6 }, 
   { id: 'Camera Café', url: `${baseURL}/vmdCodGh2nUPRDBQbIVsxGaIMyK.jpg`, rating: 7 }, 
-  { id: 'Chernobyl', url: `${baseURL}/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg`, rating: 9 }, 
+  { id: 'Chernobyl', url: `${baseURL}/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg`, rating: 9 },
+  { id: 'De Twaalft', url: `${baseURL}/7wyC0zyZd4XymgDrAiPbSrcxgIB.jpg`, rating: 9 },
   { id: 'Devs', url: `${baseURL}/f6Mfzu3RdCBaVQXME6tvlf7cZbv.jpg`, rating: 6 }, 
   { id: 'Evil Genius', url: `${baseURL}/rXaq7vl7sXynXFBVLPrNzj6CGUp.jpg`, rating: 5 },
   // MARK: FARGO
@@ -287,13 +288,12 @@ export const shows: Show[] = [
     ]
   }, 
   { id: 'The Fall Of The House of Usher', url: `${baseURL}/aFX5bdLKVCxFEKTwB1yLh6MCpsX.jpg`, rating: 7 },
-  { id: 'The Little Drummer Girl', url: `${baseURL}/8Y137iEKnlBtfBWHRi7aAODdD9Z.jpg`, rating: null },
+  { id: 'The Little Drummer Girl', url: `${baseURL}/8Y137iEKnlBtfBWHRi7aAODdD9Z.jpg`, rating: 6 },
   { id: 'The Magicians',url: `${baseURL}/d3Q4yFK3D3NOWzYRgJdsxYpZdH0.jpg`, rating: 8 },
   { id: 'The Mentalist',url: `${baseURL}/wHBpu72EW1oUYwDSaJMD46sC4nG.jpg`, rating: 8 },
   { id: 'The Night Of', url: `${baseURL}/q13XJHdnsmxQL9rXRcnNDrZGHjO.jpg`, rating: 9 },
   { id: 'The Queen\'s Gambit',url: `${baseURL}/zU0htwkhNvBQdVSIKB9s6hgVeFK.jpg`, rating: 10 },
   { id: 'The Silent Sea',url: `${baseURL}/fFT0IgqtCOks4munDTxQwkvNJkd.jpg`, rating: 7 },
-  { id: 'The Twelve', url: `${baseURL}/qn4hUvR6aYm9A52vO87q3Q7u1pU.jpg`, rating: 9 },
   // MARK: THE TWILIGHT ZONE
   {
     id: 'The Twilight Zone',
