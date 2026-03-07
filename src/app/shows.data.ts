@@ -85,7 +85,8 @@ export const shows: Show[] = [
   { id: 'Breaking Bad', url: `${baseURL}/3ZMOKFDA3fPLlIgFnrZLYLXGoiD.jpg`, rating: 6 }, 
   { id: 'Camera Café', url: `${baseURL}/vmdCodGh2nUPRDBQbIVsxGaIMyK.jpg`, rating: 7 }, 
   { id: 'Chernobyl', url: `${baseURL}/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg`, rating: 9 },
-  { id: 'De Twaalft', url: `${baseURL}/7wyC0zyZd4XymgDrAiPbSrcxgIB.jpg`, rating: 9 },
+  { id: 'De Twaalft', url: `${baseURL}/7wyC0zyZd4XymgDrAiPbSrcxgIB.jpg`, rating: 9 }, 
+  { id: 'Defending Jacob', url: `${baseURL}/JTmkzwSDRiS9nvSPwpDB9fmZj2.jpg`, rating: 9 },
   { id: 'Devs', url: `${baseURL}/f6Mfzu3RdCBaVQXME6tvlf7cZbv.jpg`, rating: 6 }, 
   { id: 'Evil Genius', url: `${baseURL}/rXaq7vl7sXynXFBVLPrNzj6CGUp.jpg`, rating: 5 },
   // MARK: FARGO
@@ -276,7 +277,7 @@ export const shows: Show[] = [
   { id: 'The 100',url: `${baseURL}/wcaDIAG1QdXQLRaj4vC1EFdBT2.jpg`, rating: 8 },
   { id: 'The Act', url: `${baseURL}/uegpHsJP6AMQOvcGSTu7ytj2xCT.jpg`, rating: 8 },
   { id: 'The Boys', url: `${baseURL}/zBi4Otjddaa92ecwcNDEIhQFxcl.jpg`, rating: null },
-  { id: 'The Breakthrough', url: `${baseURL}/ZOr8cJQiwqgO1GTdGPQJxZ6O1D.jpg`, rating: 9 },
+  { id: 'The Breakthrough', url: `${baseURL}/ZOr8cJQiwqgO1GTdGPQJxZ6O1D.jpg`, rating: 10 },
   { id: 'The End Of The F***ing World',url: `${baseURL}/fMnNMaWa6yQJAEGtlN4uADmVsX.jpg`, rating: 7 },
   // MARK: THE HAUNTING
   {
