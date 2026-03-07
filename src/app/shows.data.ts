@@ -279,6 +279,7 @@ export const shows: Show[] = [
   { id: 'The Boys', url: `${baseURL}/zBi4Otjddaa92ecwcNDEIhQFxcl.jpg`, rating: null },
   { id: 'The Breakthrough', url: `${baseURL}/ZOr8cJQiwqgO1GTdGPQJxZ6O1D.jpg`, rating: 10 },
   { id: 'The End Of The F***ing World',url: `${baseURL}/fMnNMaWa6yQJAEGtlN4uADmVsX.jpg`, rating: 7 },
+  { id: 'The Fall Of The House Of Usher', url: `${baseURL}/aFX5bdLKVCxFEKTwB1yLh6MCpsX.jpg`, rating: 7 },
   // MARK: THE HAUNTING
   {
     id: 'The Haunting',
@@ -288,11 +289,12 @@ export const shows: Show[] = [
       { id: 'The Haunting Of Bly Manor', url: `${baseURL}/vIXQ8UymmQ7zJEPrKJP3s3fSbhR.jpg`, rating: null },
     ]
   }, 
-  { id: 'The Fall Of The House of Usher', url: `${baseURL}/aFX5bdLKVCxFEKTwB1yLh6MCpsX.jpg`, rating: 7 },
+  { id: 'The Investigation', url: `${baseURL}/p5rNjoWO6abVDDc9N16RoxGYkBZ.jpg`, rating: null },
   { id: 'The Little Drummer Girl', url: `${baseURL}/8Y137iEKnlBtfBWHRi7aAODdD9Z.jpg`, rating: 6 },
   { id: 'The Magicians',url: `${baseURL}/d3Q4yFK3D3NOWzYRgJdsxYpZdH0.jpg`, rating: 8 },
   { id: 'The Mentalist',url: `${baseURL}/wHBpu72EW1oUYwDSaJMD46sC4nG.jpg`, rating: 8 },
-  { id: 'The Night Of', url: `${baseURL}/q13XJHdnsmxQL9rXRcnNDrZGHjO.jpg`, rating: 9 },
+  { id: 'The Night Of', url: `${baseURL}/q13XJHdnsmxQL9rXRcnNDrZGHjO.jpg`, rating: 9 }, 
+  { id: 'The Outsider', url: `${baseURL}/aMiPwPQjQI1EZN3xP2V0sSU37dc.jpg`, rating: null }, 
   { id: 'The Queen\'s Gambit',url: `${baseURL}/zU0htwkhNvBQdVSIKB9s6hgVeFK.jpg`, rating: 10 },
   { id: 'The Silent Sea',url: `${baseURL}/fFT0IgqtCOks4munDTxQwkvNJkd.jpg`, rating: 7 },
   // MARK: THE TWILIGHT ZONE
