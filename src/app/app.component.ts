@@ -4,6 +4,7 @@ import { Carousel, CarouselModule, CarouselPageEvent, CarouselResponsiveOptions 
 import { DialogModule } from 'primeng/dialog';
 import { Show, shows } from './shows.data';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -21,6 +22,8 @@ export class AppComponent {
     { breakpoint: '600px', numVisible: 1, numScroll: 1 } ,
     { breakpoint: '900px', numVisible: 2, numScroll: 2 }
   ];
+
+  log(a: any) {console.log(a)}
 
   onCarouselPageChange(event: CarouselPageEvent) { this.selectedSubItem = this.selectedShow.subItems![event.page!]; }
 

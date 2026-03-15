@@ -9,11 +9,6 @@ body {
   gap: 3px;
   max-width: 1300px;
   margin: 0 auto;
-
-  &--stacked {
-    position: relative;
-    display: inline-block;
-  }
 }
 
 .poster {
@@ -21,30 +16,44 @@ body {
   overflow: hidden;
   aspect-ratio: 2/3;
   background-color: #2a2d2e; // during loading
+}
 
-  &--multi {
-    display: flex; // display segments as flex
+//#region SEGMENTS
+.poster--multi {
+  display: flex;
 
-    &:hover {
-      .poster__segment:not(:hover) {
-        width: 0%;
-        
-        .poster__rating,
-        .overlay {
-          opacity: 0;
-        }
-      }
+  &:hover {
+    .poster__segment {
+      flex: 0 0 0%; 
+    }
 
-      .poster__segment:hover {
-        width: 100%;
-        
-        .poster__image {
-          transform: scale(1.05);
-        }
+    .poster__segment:hover {
+      flex: 1 1 100%;
+      .poster__rating, .overlay {
+        opacity: .8;
       }
     }
   }
 }
+
+.poster__segment {
+  &::before {
+    z-index: 1; // needed to trigger expanding effect based on hover position
+  }
+}
+
+.segment__content { // actually contains the cover, overlay etc
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  .poster__image {
+    object-fit: cover; // properly display image
+  }
+}
+//#endregion SEGMENTS
+
 
 .poster__image {
   width: 100%;
@@ -97,24 +106,18 @@ body {
 
 .poster__segment {
   height: 100%;
-  position: relative;
-  transition: all 0.4s ease;
-  width: var(--segment-width);
+  // IMPORTANTE: Nessun position: relative qui, altrimenti ::before si rimpicciolisce con lui!
+  transition: flex 0.4s ease;
+  flex: 1 1 var(--segment-width);
 
-  // Image of each segment
-  .poster__image {
-    object-fit: cover;
-    transition: transform 0.4s ease;
-  }
-
-  // Effetto hover
-  &:hover::after {
+  // La Hit Area Invisibile (sostituisce i div.trigger)
+  &::before {
     content: '';
-    position: absolute;
-    inset: 0;
-    background: rgba(255,255,255,0.1);
-    pointer-events: none;
-    z-index: 5;
+    position: absolute; // Si posiziona rispetto a .poster--multi
+    top: 0;
+    left: var(--segment-left); // Calcolato da Angular
+    width: var(--segment-width); // Calcolato da Angular
+    height: 100%;
   }
 }
 
