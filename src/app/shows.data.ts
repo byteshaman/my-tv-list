@@ -88,7 +88,8 @@ export const shows: Show[] = [
   { id: 'Chernobyl', url: `${baseURL}/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg`, rating: 9 },
   { id: 'De Twaalft', title: 'The Twelve', url: `${baseURL}/7wyC0zyZd4XymgDrAiPbSrcxgIB.jpg`, rating: 9 }, 
   { id: 'Defending Jacob', url: `${baseURL}/JTmkzwSDRiS9nvSPwpDB9fmZj2.jpg`, rating: 9 },
-  { id: 'Devs', url: `${baseURL}/f6Mfzu3RdCBaVQXME6tvlf7cZbv.jpg`, rating: 6 }, 
+  { id: 'Devs', url: `${baseURL}/f6Mfzu3RdCBaVQXME6tvlf7cZbv.jpg`, rating: 6 },
+  { id: 'Efterforskningen', title: 'The Investigation', url: `${baseURL}/d8oAZtdLXHcmRMhmn9vDbCs4YjM.jpg`, rating: null },
   { id: 'Evil Genius', url: `${baseURL}/rXaq7vl7sXynXFBVLPrNzj6CGUp.jpg`, rating: 5 },
   // MARK: FARGO
   {
@@ -291,7 +292,6 @@ export const shows: Show[] = [
       { id: 'The Haunting Of Bly Manor', url: `${baseURL}/vIXQ8UymmQ7zJEPrKJP3s3fSbhR.jpg`, rating: null },
     ]
   }, 
-  { id: 'The Investigation', url: `${baseURL}/p5rNjoWO6abVDDc9N16RoxGYkBZ.jpg`, rating: null },
   { id: 'The Little Drummer Girl', url: `${baseURL}/8Y137iEKnlBtfBWHRi7aAODdD9Z.jpg`, rating: 6 },
   { id: 'The Magicians',url: `${baseURL}/d3Q4yFK3D3NOWzYRgJdsxYpZdH0.jpg`, rating: 8 },
   { id: 'The Mentalist',url: `${baseURL}/wHBpu72EW1oUYwDSaJMD46sC4nG.jpg`, rating: 8 },

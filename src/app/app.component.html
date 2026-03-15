@@ -5,8 +5,12 @@
     @if (multi) {
       <div class="poster poster--multi">
         @for (subItem of subItems; track subItem.id; let i = $index) {
-          <div class="poster__segment" [style.--segment-width.%]="100 / subItems.length">
-            <ng-template *ngTemplateOutlet="poster; context: {show: subItem}"></ng-template>
+          <div class="poster__segment" 
+                [style.--segment-width.%]="100 / subItems.length"
+                [style.--segment-left.%]="(100 / subItems.length) * i">
+                <div class="segment__content">
+                  <ng-template *ngTemplateOutlet="poster; context: {show: subItem}"></ng-template>
+                </div>
           </div>
         }
       </div>
@@ -21,7 +25,7 @@
 <!-- 
   modal: Defines if background should be blocked when dialog is displayed.
   dismissableMask: Specifies if clicking the modal background should hide the dialog.	
-  focusOnShow: Defihnes if the first element should automatically get focus on show.
+  focusOnShow: Defines if the first element should automatically get focus on show.
 -->
 <p-dialog [modal]="true" [(visible)]="visible" [draggable]="false" [dismissableMask]="true" [resizable]="false"
   [focusOnShow]="false" [style]="{ maxWidth: '800px', width: '75vw' }" (onHide)="resetCarousel()">
@@ -42,8 +46,7 @@
 
 <!-- Show template -->
 <ng-template let-show="show" #poster>
-  <img [src]="show.url || 'https://placehold.co/400x600/EEE/31343C'" loading="lazy" title="{{ show.title || show.id }}"
-    alt="{{ show.id }}" class="poster__image" />
+  <img [src]="show.url || 'https://placehold.co/400x600/EEE/31343C'" loading="lazy" title="{{ show.title || show.id }}" alt="{{ show.id }}" class="poster__image"/>
   
   @if (show.rating === null) {
     <div class="overlay">
