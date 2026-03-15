@@ -3,6 +3,7 @@ export interface Show {
   url: string;
   rating?: number | null;
   subItems?: SubItem[];
+  title?: string;
 }
 
 export interface SubItem extends Omit<Show, 'subItems'> {
@@ -73,7 +74,7 @@ export const shows: Show[] = [
       { id: 'Common People',  url: `${baseURL}/xM7gJYnfPNWbOa6BYyRcmAiYXSM.jpg`, rating: 9 },
       { id: 'Bête Noire', url: `${baseURL}/5KeVSvfiLbs8dZMzZAUdjlWQf5t.jpg`, rating: 9 },
       { id: 'Hotel Reverie', url: `${baseURL}/gyLCvYSSNisHresFItp0aS4alFp.jpg`, rating: 8 },
-      { id: 'Plaything', url: `${baseURL}/39TCU9SGvRlRKdQR2Mdm96PYdQZ.jpg`, rating: 9 },
+      { id: 'Plaything', url: `${baseURL}/262RZJLyer3IvDyCohcqGmQ7unj.jpg`, rating: 9 },
       { id: 'Eulogy', url: `${baseURL}/mFqwZIlZrjYO0J9eDmfT1nQfwnQ.jpg`, rating: 10 },
       { id: 'USS Callister: Into Infinity', url: `${baseURL}/dzc3DUC76Uw5tGtLCwN1u6ooObY.jpg`, rating: 8 },
       // Specials
@@ -85,7 +86,7 @@ export const shows: Show[] = [
   { id: 'Breaking Bad', url: `${baseURL}/3ZMOKFDA3fPLlIgFnrZLYLXGoiD.jpg`, rating: 6 }, 
   { id: 'Camera Café', url: `${baseURL}/vmdCodGh2nUPRDBQbIVsxGaIMyK.jpg`, rating: 7 }, 
   { id: 'Chernobyl', url: `${baseURL}/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg`, rating: 9 },
-  { id: 'De Twaalft', url: `${baseURL}/7wyC0zyZd4XymgDrAiPbSrcxgIB.jpg`, rating: 9 }, 
+  { id: 'De Twaalft', title: 'The Twelve', url: `${baseURL}/7wyC0zyZd4XymgDrAiPbSrcxgIB.jpg`, rating: 9 }, 
   { id: 'Defending Jacob', url: `${baseURL}/JTmkzwSDRiS9nvSPwpDB9fmZj2.jpg`, rating: 9 },
   { id: 'Devs', url: `${baseURL}/f6Mfzu3RdCBaVQXME6tvlf7cZbv.jpg`, rating: 6 }, 
   { id: 'Evil Genius', url: `${baseURL}/rXaq7vl7sXynXFBVLPrNzj6CGUp.jpg`, rating: 5 },
@@ -101,6 +102,7 @@ export const shows: Show[] = [
       { id: 'Season 5', url: `${baseURL}/7ADSODABMUGW181hhbwU5zn9S7F.jpg`, rating: 8 },
     ],
   },
+  { id: 'Genombrottet', title: 'The Breakthrough', url: `${baseURL}/ujLDuCGz1M8l4Lbpdz8twe6e1Zb.jpg`, rating: 10 },
   // MARK: GOOSEBUMPS
   {
     id: 'Goosebumps',
@@ -143,6 +145,7 @@ export const shows: Show[] = [
   },
   { id: 'Into the Badlands', url: `${baseURL}/kwZZWOm5mpKvt5Yt9fMbsl0taOf.jpg`, rating: 8 }, 
   { id: 'Kaleidoscope', url: `${baseURL}/9rmE7IEUwdNBRy8XHBu1j82BqnU.jpg`, rating: 7 }, 
+  { id: 'Kastanjemanden', title: 'The Chestnut Man', url: `${baseURL}/wLZTY1apb8895dmj9QLHYRT51UZ.jpg`, rating: 8 }, 
   { id: 'La Palma', url: `${baseURL}/2zehV5eBl6QTPFss6wuDK4lzR4i.jpg`, rating: 9 }, 
   { id: 'Legion', url: `${baseURL}/d6T86JYMW4sSLRmNfdtFilvugOv.jpg`, rating: 7 }, 
   { id: 'Lesson In Chemestry', url: `${baseURL}/tCPIf5f6jUIr8KDMWsfaXwXW0kl.jpg`, rating: 9 }, 
@@ -277,7 +280,6 @@ export const shows: Show[] = [
   { id: 'The 100',url: `${baseURL}/wcaDIAG1QdXQLRaj4vC1EFdBT2.jpg`, rating: 8 },
   { id: 'The Act', url: `${baseURL}/uegpHsJP6AMQOvcGSTu7ytj2xCT.jpg`, rating: 8 },
   { id: 'The Boys', url: `${baseURL}/zBi4Otjddaa92ecwcNDEIhQFxcl.jpg`, rating: null },
-  { id: 'The Breakthrough', url: `${baseURL}/ZOr8cJQiwqgO1GTdGPQJxZ6O1D.jpg`, rating: 10 },
   { id: 'The End Of The F***ing World',url: `${baseURL}/fMnNMaWa6yQJAEGtlN4uADmVsX.jpg`, rating: 7 },
   { id: 'The Fall Of The House Of Usher', url: `${baseURL}/aFX5bdLKVCxFEKTwB1yLh6MCpsX.jpg`, rating: 7 },
   // MARK: THE HAUNTING
@@ -294,7 +296,7 @@ export const shows: Show[] = [
   { id: 'The Magicians',url: `${baseURL}/d3Q4yFK3D3NOWzYRgJdsxYpZdH0.jpg`, rating: 8 },
   { id: 'The Mentalist',url: `${baseURL}/wHBpu72EW1oUYwDSaJMD46sC4nG.jpg`, rating: 8 },
   { id: 'The Night Of', url: `${baseURL}/q13XJHdnsmxQL9rXRcnNDrZGHjO.jpg`, rating: 9 }, 
-  { id: 'The Outsider', url: `${baseURL}/aMiPwPQjQI1EZN3xP2V0sSU37dc.jpg`, rating: null }, 
+  { id: 'The Outsider', url: `${baseURL}/aMiPwPQjQI1EZN3xP2V0sSU37dc.jpg`, rating: 8 }, 
   { id: 'The Queen\'s Gambit',url: `${baseURL}/zU0htwkhNvBQdVSIKB9s6hgVeFK.jpg`, rating: 10 },
   { id: 'The Silent Sea',url: `${baseURL}/fFT0IgqtCOks4munDTxQwkvNJkd.jpg`, rating: 7 },
   // MARK: THE TWILIGHT ZONE

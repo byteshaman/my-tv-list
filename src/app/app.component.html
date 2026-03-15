@@ -3,7 +3,7 @@
     @let subItems = show.subItems!;
     @let multi = show.url === '' && subItems.length > 0;
     @if (multi) {
-      <div class="poster poster--multi pointer">
+      <div class="poster poster--multi">
         @for (subItem of subItems; track subItem.id; let i = $index) {
           <div class="poster__segment" [style.--segment-width.%]="100 / subItems.length">
             <ng-template *ngTemplateOutlet="poster; context: {show: subItem}"></ng-template>
@@ -42,7 +42,7 @@
 
 <!-- Show template -->
 <ng-template let-show="show" #poster>
-  <img [src]="show.url || 'https://placehold.co/400x600/EEE/31343C'" loading="lazy" title="{{ show.id }}"
+  <img [src]="show.url || 'https://placehold.co/400x600/EEE/31343C'" loading="lazy" title="{{ show.title || show.id }}"
     alt="{{ show.id }}" class="poster__image" />
   
   @if (show.rating === null) {
