@@ -23,8 +23,6 @@ export class AppComponent {
     { breakpoint: '900px', numVisible: 2, numScroll: 2 }
   ];
 
-  log(a: any) {console.log(a)}
-
   onCarouselPageChange(event: CarouselPageEvent) { this.selectedSubItem = this.selectedShow.subItems![event.page!]; }
 
   openDialog(show: Show) {
