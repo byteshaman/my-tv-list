@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --base-href /my-tv-list/ && npx gh-pages -d dist/my-tv-list/browser"
+    "deploy": "ng build --base-href /my-tv-list/ && npx gh-pages -d dist/my-tv-list/browser && git add . && git commit -m 'add ratings' && git push"
   },
   "private": true,
   "dependencies": {
