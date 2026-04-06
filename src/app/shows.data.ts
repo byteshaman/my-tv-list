@@ -87,10 +87,19 @@ export const shows: Show[] = [
   { id: 'Breaking Bad', url: `${baseURL}3ZMOKFDA3fPLlIgFnrZLYLXGoiD${ext}`, rating: 6 }, 
   { id: 'Camera Café', url: `${baseURL}vmdCodGh2nUPRDBQbIVsxGaIMyK${ext}`, rating: 7 }, 
   { id: 'Chernobyl', url: `${baseURL}hlLXt2tOPT6RRnjiUmoxyG1LTFi${ext}`, rating: 9 },
+  { id: 'Collateral', url: `${baseURL}3ekqFDb0IbY7pJbL772TEs2GifX${ext}`, rating: 9 },
   { id: 'De Twaalft', title: 'The Twelve', url: `${baseURL}7wyC0zyZd4XymgDrAiPbSrcxgIB${ext}`, rating: 9 }, 
   { id: 'Defending Jacob', url: `${baseURL}JTmkzwSDRiS9nvSPwpDB9fmZj2${ext}`, rating: 9 },
   { id: 'Devs', url: `${baseURL}f6Mfzu3RdCBaVQXME6tvlf7cZbv${ext}`, rating: 6 },
+  // MARK: DR. DEATH
+  { id: 'Dr. Death', url: '', subItems:
+    [
+      { id: 'Dr. Death S01', url: `${baseURL}b6Hhj0CriW2QySQtRM6TT4ACJEH${ext}`, rating: 9 },
+      { id: 'Dr. Death S02', url: `${baseURL}pNnmxTSc2ixac4xk8T80wchec0r${ext}`, rating: null },
+    ],
+  },
   { id: 'Efterforskningen', title: 'The Investigation', url: `${baseURL}d8oAZtdLXHcmRMhmn9vDbCs4YjM${ext}`, rating: 9 },
+  { id: 'Escape At Dannemora', url: `${baseURL}7q3jBXeqGuvAZnoMRRfKx4Su0v3${ext}`, rating: null },
   { id: 'Evil Genius', url: `${baseURL}rXaq7vl7sXynXFBVLPrNzj6CGUp${ext}`, rating: 5 },
   // MARK: FARGO
   {
@@ -145,7 +154,7 @@ export const shows: Show[] = [
       { id: 'Heroes Reborn: Dark Matters', url: `${baseURL}fixaFo6VbICZEqdHfXsJdLOBqBi${ext}`, rating: 7 },
     ],
   },
-  { id: 'Into the Badlands', url: `${baseURL}kwZZWOm5mpKvt5Yt9fMbsl0taOf${ext}`, rating: 8 }, 
+  { id: 'Into The Badlands', url: `${baseURL}kwZZWOm5mpKvt5Yt9fMbsl0taOf${ext}`, rating: 7 }, 
   { id: 'Kaleidoscope', url: `${baseURL}9rmE7IEUwdNBRy8XHBu1j82BqnU${ext}`, rating: 7 }, 
   { id: 'Kastanjemanden', title: 'The Chestnut Man', url: `${baseURL}wLZTY1apb8895dmj9QLHYRT51UZ${ext}`, rating: 8 }, 
   { id: 'La Palma', url: `${baseURL}2zehV5eBl6QTPFss6wuDK4lzR4i${ext}`, rating: 9 }, 
