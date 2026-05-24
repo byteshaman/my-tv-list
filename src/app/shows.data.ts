@@ -90,6 +90,7 @@ export const shows: Show[] = [
   { id: 'Collateral', url: `${baseURL}3ekqFDb0IbY7pJbL772TEs2GifX${ext}`, rating: 9 },
   { id: 'De Twaalft', title: 'The Twelve', url: `${baseURL}7wyC0zyZd4XymgDrAiPbSrcxgIB${ext}`, rating: 9 }, 
   { id: 'Defending Jacob', url: `${baseURL}JTmkzwSDRiS9nvSPwpDB9fmZj2${ext}`, rating: 9 },
+  { id: 'Devil In Disguise: John Wayne Gacy', url: `${baseURL}vsXSxLYsAq0VsjWIMRpQGorjLjh${ext}`, rating: 8 },
   { id: 'Devs', url: `${baseURL}f6Mfzu3RdCBaVQXME6tvlf7cZbv${ext}`, rating: 6 },
   // MARK: DR. DEATH
   { id: 'Dr. Death', url: '', subItems:
