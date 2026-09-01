@@ -163,6 +163,7 @@ export const shows: Show[] = [
   { id: 'Legion', url: `${baseURL}d6T86JYMW4sSLRmNfdtFilvugOv${ext}`, rating: 7 }, 
   { id: 'Lesson In Chemestry', url: `${baseURL}tCPIf5f6jUIr8KDMWsfaXwXW0kl${ext}`, rating: 9 }, 
   { id: 'Locke & Key', url: `${baseURL}zuxGfRKziGHPogipnEXXykdDmyT${ext}`, rating: 8 }, 
+  { id: 'Lord Of The Flies', url: `${baseURL}zDi4uP2N3rRARLNykg7LsM6DOua${ext}`, rating: 8 }, 
   { id: 'Lost', url: `${baseURL}rSPXRV2TD2LlU26QyDSS9uYCnGb${ext}`, rating: 8 },
   // MARK: LD&R
   {
