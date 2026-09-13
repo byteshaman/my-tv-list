@@ -1,8 +1,8 @@
 <div class="posters">
-  @for (show of shows; track show.url) {
+  @for (show of shows; track show.posterUrl) {
     @let subItems = show.subItems!;
-    @let multi = show.url === '' && subItems.length > 0;
-    @if (multi) {
+    @let multi = show.posterUrl === '' && subItems.length > 0;
+    @if (multi) { <!-- connected series with no dialog -->
       <div class="poster poster--multi">
         @for (subItem of subItems; track subItem.id; let i = $index) {
           <div class="poster__segment" 
@@ -46,7 +46,7 @@
 
 <!-- Show template -->
 <ng-template let-show="show" #poster>
-  <img [src]="show.url || 'https://placehold.co/400x600/EEE/31343C'" loading="lazy" title="{{ show.title || show.id }}" alt="{{ show.id }}" class="poster__image"/>
+  <img [src]="show.posterUrl || 'https://placehold.co/400x600/EEE/31343C'" loading="lazy" title="{{ show.title || show.id }}" alt="{{ show.id }}" class="poster__image"/>
   
   @if (show.rating === null) {
     <div class="overlay">
