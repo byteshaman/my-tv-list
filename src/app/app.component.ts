@@ -26,7 +26,11 @@ export class AppComponent {
   onCarouselPageChange(event: CarouselPageEvent) { this.selectedSubItem = this.selectedShow.subItems![event.page!]; }
 
   openDialog(show: Show) {
-    if (!show.subItems) return;// Avoid error on elements without subItems that don't need to open a dialog
+    // Do not open a dialog but open the URL in a new tab
+    if (show.url && !show.subItems) {
+      window.open(show.url, '_blank');
+      return;
+    }
 
     this.selectedShow = show;
     this.visible = true;
