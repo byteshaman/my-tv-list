@@ -15,7 +15,7 @@
         }
       </div>
     } @else {
-      <div class="poster" (click)="openDialog(show)" [class.pointer]="show.subItems">
+      <div class="poster pointer" (click)="openDialog(show)">
         <ng-template *ngTemplateOutlet="poster; context: {show}"></ng-template> <!-- shorthand for {show: show} -->
       </div>
     }
