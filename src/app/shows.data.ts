@@ -33,15 +33,13 @@ export const shows: Show[] = [
       { id: 'Masters Of The Air', url: `${baseUrl}/46518-masters-of-the-air`, posterUrl: `${basePUrl}rSAmgcoA74371rplbqM27yVsd3y${ext}`, rating: null },
     ]
   },
-  { 
-    id: 'BEEF', 
+  {
+    id: 'BEEF',
     posterUrl: '', subItems: [
-      { id: 'BEEF So1', url: `${baseUrl}/154385-beef`, posterUrl: `${basePUrl}4b4v7RnPhNyPEaVGFarEuo74r8W${ext}`, rating: 7 },
-      {
-        id: 'BEEF So2', url: `${baseUrl}/154385-beef`, posterUrl: `${basePUrl}25ih0Xq2zWbxhhKxwhvswKYQyEr${ext}`, rating: null
-      }
+      { id: 'BEEF S01', url: `${baseUrl}/154385-beef`, posterUrl: `${basePUrl}4b4v7RnPhNyPEaVGFarEuo74r8W${ext}`, rating: 7 },
+      { id: 'BEEF S02', url: `${baseUrl}/154385-beef`, posterUrl: `${basePUrl}25ih0Xq2zWbxhhKxwhvswKYQyEr${ext}`, rating: null }
     ]
-  },   
+  },
   { id: 'Black Bird', url: `${baseUrl}/155537-black-bird`, posterUrl: `${basePUrl}79M2yNSmkh4CCMrWNV6b2xvIeNn${ext}`, rating: 8 },
   // MARK: BM
   {
@@ -81,7 +79,7 @@ export const shows: Show[] = [
       { id: 'Mazey Day', posterUrl: `${basePUrl}3fQcHtdmARBVnT8djV53jtGUIUU${ext}`, rating: 8 },
       { id: 'Demon 79', posterUrl: `${basePUrl}iPMcM7hvaN3mrbBYlU70h3mFG8q${ext}`, rating: 8 },
       // Season 7
-      { id: 'Common People',  posterUrl: `${basePUrl}xM7gJYnfPNWbOa6BYyRcmAiYXSM${ext}`, rating: 9 },
+      { id: 'Common People', posterUrl: `${basePUrl}xM7gJYnfPNWbOa6BYyRcmAiYXSM${ext}`, rating: 9 },
       { id: 'Bête Noire', posterUrl: `${basePUrl}5KeVSvfiLbs8dZMzZAUdjlWQf5t${ext}`, rating: 9 },
       { id: 'Hotel Reverie', posterUrl: `${basePUrl}gyLCvYSSNisHresFItp0aS4alFp${ext}`, rating: 8 },
       { id: 'Plaything', posterUrl: `${basePUrl}262RZJLyer3IvDyCohcqGmQ7unj${ext}`, rating: 9 },
