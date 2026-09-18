@@ -323,6 +323,7 @@ export const shows: Show[] = [
   { id: 'The Mentalist', url: `${baseUrl}/5920-the-mentalist`, posterUrl: `${basePUrl}wHBpu72EW1oUYwDSaJMD46sC4nG${ext}`, rating: 8 },
   { id: 'The Night Of', url: `${baseUrl}/66276-the-night-of`, posterUrl: `${basePUrl}q13XJHdnsmxQL9rXRcnNDrZGHjO${ext}`, rating: 9 },
   { id: 'The Outsider', url: `${baseUrl}/84661-the-outsider`, posterUrl: `${basePUrl}aMiPwPQjQI1EZN3xP2V0sSU37dc${ext}`, rating: 8 },
+  { id: 'The Patient', url: `${baseUrl}/135868-the-patient`, posterUrl: `${basePUrl}fB1848j0pvNnYilXB0ho5OCfiIz${ext}`, rating: null },
   { id: 'The Queen\'s Gambit', url: `${baseUrl}/87739-the-queen-s-gambit`, posterUrl: `${basePUrl}zU0htwkhNvBQdVSIKB9s6hgVeFK${ext}`, rating: 10 },
   { id: 'The Silent Sea', url: `${baseUrl}/96777-the-silent-sea`, posterUrl: `${basePUrl}fFT0IgqtCOks4munDTxQwkvNJkd${ext}`, rating: 7 },
   // MARK: THE TWILIGHT ZONE
