@@ -107,6 +107,7 @@ export const shows: Show[] = [
         { id: 'Dr. Death S02', url: `${baseUrl}/93749-dr-death`, pUrl: `${basePUrl}pNnmxTSc2ixac4xk8T80wchec0r${ext}`, rating: null },
       ],
   },
+  { id: 'Dr. House', url: `${baseUrl}/1408-house`, pUrl: `${basePUrl}zxujrD1DEW67i2GOZwDc3XsRFN3${ext}`, rating: 9 },
   { id: 'Efterforskningen', title: 'The Investigation', url: `${baseUrl}/110333-efterforskningen`, pUrl: `${basePUrl}d8oAZtdLXHcmRMhmn9vDbCs4YjM${ext}`, rating: 9 },
   { id: 'Escape At Dannemora', url: `${baseUrl}/72039-escape-at-dannemora`, pUrl: `${basePUrl}7q3jBXeqGuvAZnoMRRfKx4Su0v3${ext}`, rating: null },
   { id: 'Evil Genius', url: `${baseUrl}/79126-evil-genius`, pUrl: `${basePUrl}rXaq7vl7sXynXFBVLPrNzj6CGUp${ext}`, rating: 5 },
@@ -323,7 +324,7 @@ export const shows: Show[] = [
   { id: 'The Mentalist', url: `${baseUrl}/5920-the-mentalist`, pUrl: `${basePUrl}wHBpu72EW1oUYwDSaJMD46sC4nG${ext}`, rating: 8 },
   { id: 'The Night Of', url: `${baseUrl}/66276-the-night-of`, pUrl: `${basePUrl}q13XJHdnsmxQL9rXRcnNDrZGHjO${ext}`, rating: 9 },
   { id: 'The Outsider', url: `${baseUrl}/84661-the-outsider`, pUrl: `${basePUrl}aMiPwPQjQI1EZN3xP2V0sSU37dc${ext}`, rating: 8 },
-  { id: 'The Patient', url: `${baseUrl}/135868-the-patient`, pUrl: `${basePUrl}fB1848j0pvNnYilXB0ho5OCfiIz${ext}`, rating: null },
+  { id: 'The Patient', url: `${baseUrl}/135868-the-patient`, pUrl: `${basePUrl}fB1848j0pvNnYilXB0ho5OCfiIz${ext}`, rating: 8 },
   { id: 'The Queen\'s Gambit', url: `${baseUrl}/87739-the-queen-s-gambit`, pUrl: `${basePUrl}zU0htwkhNvBQdVSIKB9s6hgVeFK${ext}`, rating: 10 },
   { id: 'The Silent Sea', url: `${baseUrl}/96777-the-silent-sea`, pUrl: `${basePUrl}fFT0IgqtCOks4munDTxQwkvNJkd${ext}`, rating: 7 },
   // MARK: THE TWILIGHT ZONE
